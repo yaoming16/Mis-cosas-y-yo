@@ -14,7 +14,7 @@ const outDir = resolve(__dirname, "dist");
 export default defineConfig({
   root,
   plugins: [react()],
-  target: "ES2022",
+  target: "esnext",
   base: "/Mis-cosas-y-yo/",
   build: {
     outDir,
