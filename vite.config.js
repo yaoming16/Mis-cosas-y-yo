@@ -14,8 +14,12 @@ const outDir = resolve(__dirname, "dist");
 export default defineConfig({
   root,
   plugins: [react()],
-  target: "esnext",
   base: "/Mis-cosas-y-yo/",
+  esbuild: {
+    supported: {
+      "top-level-await": true, //browsers can handle top-level-await features
+    },
+  },
   build: {
     outDir,
     emptyOutDir: true,
