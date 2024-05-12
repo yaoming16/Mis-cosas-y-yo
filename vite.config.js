@@ -14,7 +14,7 @@ const outDir = resolve(__dirname, "dist");
 export default defineConfig({
   root,
   plugins: [react()],
-  base: "https://github.com/yaoming16/Mis-cosas-y-yo/",
+  base: "/Mis-cosas-y-yo/",
   build: {
     outDir,
     emptyOutDir: true,
