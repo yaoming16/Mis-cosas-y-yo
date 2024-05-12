@@ -5,9 +5,17 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function NavBar() {
   const navigation = [
-    { name: "Información", href: "/index.html", current: false },
-    { name: "Buscador", href: "/search/index.html", current: false },
-    { name: "Música", href: "/MusicPage/index.html", current: false },
+    { name: "Información", href: "/Mis-cosas-y-yo/index.html", current: false },
+    {
+      name: "Buscador",
+      href: "/Mis-cosas-y-yo/search/index.html",
+      current: false,
+    },
+    {
+      name: "Música",
+      href: "/Mis-cosas-y-yo/MusicPage/index.html",
+      current: false,
+    },
   ];
 
   function classNames(...classes) {
