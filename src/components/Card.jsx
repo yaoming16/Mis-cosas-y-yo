@@ -15,8 +15,12 @@ export default function Card(props) {
             // If the user has not selected a list, typeOfListToDisplay == "", so we need to take into account this situation.
             // Books is going to be the default option we want to show so we set the book images folder as the src aattribute if typeOfListToDisplay = "".
             typeOfListToDisplay != ""
-              ? "/images/" + typeOfListToDisplay + "/" + id.toString() + ".jpg"
-              : "/images/Books/" + id.toString() + ".jpg"
+              ? "/Mis-cosas-y-yo/images/" +
+                typeOfListToDisplay +
+                "/" +
+                id.toString() +
+                ".jpg"
+              : "/Mis-cosas-y-yo/images/Books/" + id.toString() + ".jpg"
           }
           alt={name + " image"}
           htloading="lazy"
