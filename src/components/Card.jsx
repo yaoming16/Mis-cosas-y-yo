@@ -3,7 +3,7 @@ import StarRatings from "./StarRating";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Card(props) {
-  const { name, author, plot, review, genres, id, score } = props.item;
+  const { name, author, plot, review, genres, id, score, program } = props.item;
   const { typeOfListToDisplay, pendingCard } = props;
 
   return (
@@ -31,15 +31,33 @@ export default function Card(props) {
           <h2 className="text-3xl sm:text-4xl font-bold text-center">{name}</h2>
           <h3 className="mt-2 text-center text-xl sm:text-2xl">{author}</h3>
           <div className="mt-2 text-lg flex flex-row flex-wrap justify-center italic">
-            {genres.map((item) => (
-              <span className="mr-2" key={genres.indexOf(item)}>
+            {genres.map((item, index) => (
+              <span className="mr-2" key={index}>
                 {item},
               </span>
             ))}
           </div>
         </div>
         <div className="">
-          <Accordion text={plot} title={"Trama"} mdDisabled={false}></Accordion>
+          {/* We will use a slightly different format to show the "plot" of the music concerts, so we need to send to the accordeon a diferent object than the rest of  */}
+          <Accordion
+            text={
+              typeOfListToDisplay === "Music" ? (
+                <div>
+                  {program.map((piece, index) => (
+                    <div className="mb-3" key={index}>
+                      <p className="font-bold text-lg">{piece.composer}</p>
+                      <p>{piece.name}</p>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                plot
+              )
+            }
+            title={typeOfListToDisplay === "Music" ? "Programa" : "Trama"}
+            mdDisabled={false}
+          ></Accordion>
           {
             // We will show the secction of "Comentario personal" only for the items that have a review or some kind of comment different from an empty string "".
             !pendingCard && review != `` ? (

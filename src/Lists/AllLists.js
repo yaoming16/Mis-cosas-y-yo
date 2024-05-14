@@ -24,6 +24,11 @@ let allLists = [
     display: "Teatro",
     id: 5,
   },
+  {
+    name: "Music",
+    display: "Música",
+    id: 6,
+  },
 ];
 
 export default allLists;

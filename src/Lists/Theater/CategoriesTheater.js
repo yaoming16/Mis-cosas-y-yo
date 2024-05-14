@@ -1,4 +1,4 @@
-let genresPlays = [
+let categoriesPlays = [
   {
     name: "2017",
     id: 1,
@@ -39,6 +39,10 @@ let genresPlays = [
     name: "Teatro Circular",
     id: 10,
   },
+  {
+    name: "Teatro el Galpón",
+    id: 11,
+  },
 ];
 
-export default genresPlays;
+export default categoriesPlays;

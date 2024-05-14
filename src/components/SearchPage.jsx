@@ -6,10 +6,12 @@ import completedBooks from "../Lists/Books/CompletedBooks";
 import completedMangas from "../Lists/Mangas/CompletedMangas";
 import completedAnimes from "../Lists/Animes/CompletedAnimes";
 import completedPlays from "../Lists/Theater/CompletedPlays";
+import completedMusic from "../Lists/Music/CompletedMusic";
 import pendingGames from "../Lists/Games/PendingGames";
 import pendingBooks from "../Lists/Books/PendingBooks";
 import pendingMangas from "../Lists/Mangas/PendingMangas";
 import Accordion from "./Accordion";
+import BackToTopButton from "./BackToTopButton";
 
 export default function SearchPage() {
   // We need this state to get the words from the input we will use to search the book list
@@ -36,6 +38,7 @@ export default function SearchPage() {
   let mangas = completedMangas;
   let animes = completedAnimes;
   let plays = completedPlays;
+  let music = completedMusic;
 
   // This array will contain the result of the books list after filtered by the parameters entered by the user.
   let listToDisplay;
@@ -60,6 +63,8 @@ export default function SearchPage() {
     listToDisplay = animes;
   } else if (typeOfListToDisplay === "Plays") {
     listToDisplay = plays;
+  } else if (typeOfListToDisplay === "Music") {
+    listToDisplay = music;
   }
 
   // By default we will filter the array alphabetically
@@ -136,6 +141,7 @@ export default function SearchPage() {
           title={"Filtros"}
         ></Accordion>
       </div>
+      <BackToTopButton></BackToTopButton>
       {
         // We want to check if the user wants to see a random recommendation or a list if items
         !displayRandomRecommendation ? (

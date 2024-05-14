@@ -2,7 +2,8 @@ import GenresBooks from "../Lists/Books/GenresBooks";
 import GenreGames from "../Lists/Games/GenresGames";
 import GenresMangas from "../Lists/Mangas/GenresMangas";
 import GenreAnimes from "../Lists/Animes/GenresAnime";
-import GenreTheater from "../Lists/Theater/GenresTheater";
+import CategoriesTheater from "../Lists/Theater/CategoriesTheater";
+import categoriesMusic from "../Lists/Music/CategoriesMusic";
 import AllLists from "../Lists/AllLists";
 import SearchBar from "./SearchBar";
 import Select from "./Select";
@@ -35,7 +36,9 @@ export default function FormSection({
   } else if (typeOfListToDisplay === "Animes") {
     optionsToAdd = GenreAnimes;
   } else if (typeOfListToDisplay === "Plays") {
-    optionsToAdd = GenreTheater;
+    optionsToAdd = CategoriesTheater;
+  } else if (typeOfListToDisplay === "Music") {
+    optionsToAdd = categoriesMusic;
   }
 
   return (
