@@ -43,6 +43,10 @@ let categoriesPlays = [
     name: "Teatro el Galpón",
     id: 11,
   },
+  {
+    name: "Ballet Nacional",
+    id: 12,
+  },
 ];
 
 export default categoriesPlays;

@@ -9,7 +9,7 @@ export default function SearchBar({ SetwordsToSearch, showSearchBar }) {
           placeholder="¿Qué deseas buscar?"
           aria-label="Full name"
           onChange={(e) => {
-            SetwordsToSearch(e.target.value);
+            SetwordsToSearch(e.target.value.toLowerCase());
           }}
         />
       </div>

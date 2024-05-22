@@ -90,11 +90,34 @@ export default function SearchPage() {
 
   // Filter by user input
   if (wordsToSearch != "") {
-    listToDisplay = listToDisplay.filter(
-      (item) =>
-        item.author.toLowerCase().includes(wordsToSearch) ||
-        item.name.toLowerCase().includes(wordsToSearch)
-    );
+    listToDisplay = listToDisplay.filter((item) => {
+      if (typeOfListToDisplay !== "Music") {
+        if (
+          item.author.toLowerCase().includes(wordsToSearch) ||
+          item.name.toLowerCase().includes(wordsToSearch)
+        )
+          return true;
+        /* In case the user is looking at the music category, we want them to be able to filter 
+    taking into account the pieces in the program of the concert (composer and name)
+    This surely can be done better*/
+      } else {
+        let programtrue = false;
+        for (let piece of item.program) {
+          for (let [k, v] of Object.entries(piece)) {
+            if (v.toLowerCase().includes(wordsToSearch)) {
+              programtrue = true;
+            }
+          }
+        }
+        if (
+          programtrue ||
+          item.author.toLowerCase().includes(wordsToSearch) ||
+          item.name.toLowerCase().includes(wordsToSearch)
+        ) {
+          return true;
+        }
+      }
+    });
   }
 
   // Filter by score of the game

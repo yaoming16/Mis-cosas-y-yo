@@ -420,42 +420,358 @@ let completedMusic = [
     score: 7,
   },
   {
-    id: 100000000000001,
-    name: "",
-    author: "",
+    id: 100000000000020,
+    name: "Gala 90 aniversario",
+    author: "Eiko Senda / Stefano Lano",
     program: [
       {
-        name: "",
-        composer: "",
+        name: "Preludio de Los Maestros Cantores de Núremberg",
+        composer: "Richard Wagner",
       },
       {
-        name: "",
-        composer: "",
+        name: "Wesendonck Lieder, WWV91",
+        composer: "Richard Wagner",
+      },
+      {
+        name: "Sinfonía Nº3, Eroica",
+        composer: "Ludwig van Beethoven",
       },
     ],
     review: ``,
-    genres: ["Orquesta Filarmónica de Montevideo", "2019"],
+    genres: ["Orquesta Sinfónica Nacional", "2021"],
+    favourite: false,
+    score: 7,
+  },
+  {
+    id: 100000000000021,
+    name: "Chopin y Tchaikovsky",
+    author: "Müza Rubackyté / Esteban Louise",
+    program: [
+      {
+        name: "Concierto para piano Nª1",
+        composer: "Frédéric Chopin",
+      },
+      {
+        name: "Sinfonía Nº 4",
+        composer: "P. I. Tchaikovsky",
+      },
+    ],
+    review: `Muy buen programa. Sin duda alguna el primer concierto para piano de Chopin es uno de los mejores de la historia`,
+    genres: ["Orquesta Sinfónica Nacional", "2022"],
+    favourite: false,
+    score: 8,
+  },
+  {
+    id: 100000000000022,
+    name: "Beethoven IX",
+    author:
+      "Sandra Silvera / Evgenia Pirshina / Gerardo Marandino / Federico Sanguinetti /Nicolás Rauss",
+    program: [
+      {
+        name: "Sinfonía Nº 9",
+        composer: "Ludwig van Beethoven",
+      },
+    ],
+    review: `Es la novena sinfonía... no hay nada más que explicar`,
+    genres: ["Orquesta Sinfónica Nacional", "Coro Nacional", "2022"],
+    favourite: true,
+    score: 9,
+  },
+  {
+    id: 100000000000023,
+    name: "Réquiem de Verdi",
+    author:
+      "Marly Montoni / Evgenia Pirshina / Santiago Vidal / Hermán Iturralde / Nicolas Rauss",
+    program: [
+      {
+        name: "Misa de Réquiem",
+        composer: "Giuseppe Verdi",
+      },
+    ],
+    review: ``,
+    genres: ["Orquesta Sinfónica Nacional", "Coro Nacional", "2023"],
+    favourite: false,
+    score: 7,
+  },
+  {
+    id: 100000000000024,
+    name: "Cuadros de una exposición",
+    author: "Rachel Barton Pine / Ana María Patiño",
+    program: [
+      {
+        name: "Pieza Montevideana Nº1",
+        composer: "Beatriz Lockhart",
+      },
+      {
+        name: "Concierto para violín Nº2",
+        composer: "Sergei Profiev",
+      },
+      {
+        name: "Cuadros de una exposición",
+        composer: "Modest Mussorgsky",
+      },
+    ],
+    review: `Excelente el concierto para violín`,
+    genres: ["Orquesta Sinfónica Nacional", "2023"],
+    favourite: false,
+    score: 8,
+  },
+  {
+    id: 100000000000025,
+    name: "La patética",
+    author: "Armands Abols / Nicolas Rauss",
+    program: [
+      {
+        name: "Finlandia",
+        composer: "Jean Sibelius",
+      },
+      {
+        name: "Concierto para piano",
+        composer: "Edvard Grieg",
+      },
+      {
+        name: "Sinfonía Nº6",
+        composer: "P. I. Tchaikovsky",
+      },
+    ],
+    review: `Excelente programa de principio a fin. El concierto de Grieg es muy bueno y una pieza que debería escuchar más seguido. En lo personal me gusta más la quinta sinfonía de Tchaikovsky, pero tengo que reconocer que el impacto emocional que te deja el último movimiento de la sexta es inigualable. Una velada perfecta si no fuera por la dificultad que tienen algunas personas para tener un poco de respeto y silenciar sus celulares. Cuatro veces sonaron celulares, que un poco arruinaron la presentación del concierto para piano. Por favor, si van al teatro, silencien sus celulares.`,
+    genres: ["Orquesta Sinfónica Nacional", "2023"],
+    favourite: true,
+    score: 9,
+  },
+  {
+    id: 100000000000026,
+    name: "Pasión Eslava",
+    author: "Cristian Budu / Mika Eichenholz",
+    program: [
+      {
+        name: "Concierto para piano Nº4",
+        composer: "Sergei Rachmaninoff",
+      },
+      {
+        name: "Sinfonía Nº7",
+        composer: "Antonin Dvorák",
+      },
+    ],
+    review: `Es un muy buen concierto para piano y en estos momentos uno de los que más escucho.`,
+    genres: ["Orquesta Sinfónica Nacional", "2023"],
+    favourite: false,
+    score: 7,
+  },
+  {
+    id: 100000000000027,
+    name: "Carmen Nabucco Aida",
+    author: "Nicolas Rauss",
+    program: [
+      {
+        name: "Varias piezas",
+        composer: "Wagner / Strauss / Borodin / Verdi / Mascagni",
+      },
+    ],
+    review: `Diferente a lo que suelo escuchar pero está bueno conocer cosas nuevas`,
+    genres: ["Orquesta Sinfónica Nacional", "Coro Nacional", "2023"],
     favourite: false,
     score: 6,
   },
   {
-    id: 100000000000001,
-    name: "",
-    author: "",
+    id: 100000000000028,
+    name: "Festival Mozart Villa-Lobos",
+    author:
+      "Natalia Vega / Abigail González / Andrés Barbery / Nicolás Zecchi / Esteban Louise",
     program: [
       {
-        name: "",
-        composer: "",
+        name: "Ave María Nº17",
+        composer: "Heitor Villa-Lobos",
       },
       {
-        name: "",
+        name: "Requiem K.626",
+        composer: "Wolfgang Amadeus Mozart",
+      },
+    ],
+    review: `No estuvo muy bueno realmente. No tanto por las piezas en sí sino por la interpretación`,
+    genres: ["Orquesta Sinfónica Nacional", "Coro Nacional", "2023"],
+    favourite: false,
+    score: 5,
+  },
+  {
+    id: 100000000000029,
+    name: "Ludwing Van...",
+    author: "Priscila Rato / Nicolás Pasquet",
+    program: [
+      {
+        name: "Concierto para violin Nº1",
+        composer: "Dmitri Shostakovich",
+      },
+      {
+        name: "Sinfonía Nº7",
+        composer: "Ludwig van Beethoven",
+      },
+    ],
+    review: ``,
+    genres: ["Orquesta Sinfónica Nacional", "2023"],
+    favourite: false,
+    score: 7,
+  },
+  {
+    id: 100000000000030,
+    name: "Bohemian Rhapsody in Blue",
+    author: "Ciro Fodere / Nicolas Rauss",
+    program: [
+      {
+        name: "El Moldava",
+        composer: "Bedrich Smetana",
+      },
+      {
+        name: "Rhapsody in Blue",
+        composer: "George Gershwin",
+      },
+      {
+        name: "Sinfonía Nº1",
+        composer: "Bohuslav Martinu",
+      },
+    ],
+    review: `El concierto para piano excelente, esta fue la segunda vez que lo escuche en vivo. La sinfonía de Martinu no la conocía y fue un buen descubrimiento, muy recomendable la cuarta también.`,
+    genres: ["Orquesta Sinfónica Nacional", "2024"],
+    favourite: false,
+    score: 8,
+  },
+  {
+    id: 100000000000031,
+    name: "Ciclo internacional de piano de Montevideo",
+    author: "Varios",
+    program: [
+      {
+        name: "Concierto homenaje a Sergei Rachmaninoff en el 150 aniversario de su nacimiento",
         composer: "",
       },
     ],
     review: ``,
-    genres: ["Orquesta Filarmónica de Montevideo", "2019"],
+    genres: ["2023"],
+    favourite: false,
+    score: 7,
+  },
+  {
+    id: 100000000000032,
+    name: "Gala de música popular uruguaya",
+    author: "Varios / Esteban Louise",
+    program: [
+      {
+        name: "El espectáculo se centrará en vertientes musicales, que identifican sus bases en la música contemporánea uruguaya y que se asocia a la identidad de géneros musicales como: candombe, murga, tango y canto popular.",
+        composer: "",
+      },
+    ],
+    review: ``,
+    genres: ["Coro Nacional", "2023"],
     favourite: false,
     score: 6,
+  },
+  {
+    id: 100000000000033,
+    name: "Coro de la Nostalgia",
+    author: "Esteban Louise",
+    program: [
+      {
+        name: "Espectáculo que celebra una de las mayores tradiciones recientes de nuestro país. Es un concierto multimedia con proyecciones y banda en vivo junto a las voces del Coro Nacional del Sodre.",
+        composer: "",
+      },
+    ],
+    review: ``,
+    genres: ["Coro Nacional", "2023"],
+    favourite: false,
+    score: 8,
+  },
+  {
+    id: 100000000000034,
+    name: "Ciclo de piano Nibya Mariño",
+    author: "Éida Gencarelli - Raquel Boldorini",
+    program: [
+      {
+        name: "Preludios de El clave bien temperado",
+        composer: "Johann Sebastian Bach",
+      },
+      {
+        name: "24 preludios",
+        composer: "Frédéric Chopin",
+      },
+    ],
+    review: ``,
+    genres: ["2023"],
+    favourite: false,
+    score: 7,
+  },
+  {
+    id: 100000000000035,
+    name: "La Catalina Sinfónico",
+    author: "Agarrate Catalina / Martín Jorge",
+    program: [
+      {
+        name: "Un recorrido por el repertorio de la Catalina junto a la banda sinfónica de Montevideo y otros artistas invitados",
+        composer: "",
+      },
+    ],
+    review: `Una excelente noche, creo que nunca vi el teatro de verano tan lleno. ¡Espectacular la Catalina junto con la banda sinfónica!`,
+    genres: ["Banda Sinfónica de Montevideo", "2023"],
+    favourite: true,
+    score: 10,
+  },
+  {
+    id: 100000000000036,
+    name: "Leitmotiv",
+    author: "Ismael Dilon / Ariel Britos",
+    program: [
+      {
+        name: "Concierto para Xilófono",
+        composer: "Boris Papandopulo",
+      },
+      {
+        name: "Sinfonía Nº5",
+        composer: "P.I. Tchaikovsky",
+      },
+    ],
+    review: `Es una de mis sinfonías favoritas, pero en esta ocasión no la pude disfrutar tanto.`,
+    genres: ["Orquesta Juvenil del Sodre", "2023"],
+    favourite: false,
+    score: 6,
+  },
+  {
+    id: 100000000000037,
+    name: "Mikrokosmos",
+    author:
+      "Nahuel Cigaran /Magaly Correa / Selene Gutiérrez /Rocío Britos /Ariel Britos",
+    program: [
+      {
+        name: "Fanfarria para la filarmónica de Viena",
+        composer: "Richard Strauss",
+      },
+      {
+        name: "Danzas rumanas",
+        composer: "Béla Bartók",
+      },
+      {
+        name: "Sinfonía concertante para oboe, clarinete, corno y fagot",
+        composer: "Wolfgang Amadeus Mozart",
+      },
+    ],
+    review: ``,
+    genres: ["Orquesta Juvenil del Sodre", "2023"],
+    favourite: false,
+    score: 6,
+  },
+
+  {
+    id: 100000000000038,
+    name: "Tango Coral",
+    author: "Varios / Esteban Louise",
+    program: [
+      {
+        name: "El principal género urbano de nuestra ciudad nos acerca a emblemáticas obras que el CNS recrea con atractivos arreglos corales y la conjunción de orquesta típica, solistas y secciones instrumentales",
+        composer: "",
+      },
+    ],
+    review: ``,
+    genres: ["Coro Nacional", "2022"],
+    favourite: false,
+    score: 7,
   },
 ];
 

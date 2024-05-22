@@ -41,6 +41,20 @@ export default function FormSection({
     optionsToAdd = categoriesMusic;
   }
 
+  // This is to sort the genders alphabetically
+  optionsToAdd.sort((item1, item2) => {
+    const lowerItem1 = item1.name.toLowerCase();
+    const lowerItem2 = item2.name.toLowerCase();
+
+    if (lowerItem1 < lowerItem2) {
+      return -1; // Return a negative value if item1 should come before item2
+    } else if (lowerItem2 > lowerItem1) {
+      return 1; // Return a positive value if item1 should come after item2
+    } else {
+      return 0; // Return 0 if equal
+    }
+  });
+
   return (
     <div className="flex flex-col w-full  m-auto">
       <div className="flex w-full m-auto flex-col md:flex-row justify-around">
@@ -82,7 +96,7 @@ export default function FormSection({
               text="Cambiar Recomendación"
               SetFuction={SetAlreadyRecommended}
               onClickValue={!alreadyRecommended}
-              hidden={displayRandomRecommendation ? true : false}
+              show={displayRandomRecommendation ? true : false}
             ></ActionButton>
           </div>
         </div>
