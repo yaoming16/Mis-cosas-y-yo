@@ -10,7 +10,7 @@ import { useState, useEffect } from "react";
 let dev = false;
 const fetchTokenURL = dev
   ? "http://localhost:3000/refresh_token"
-  : "https://book-list-server-l41pyzxbw-pablos-projects-e92e7aa7.vercel.app/refresh_token";
+  : "https://book-list-server.vercel.app/refresh_token";
 
 // Function to get a token from the server
 async function getToken() {
