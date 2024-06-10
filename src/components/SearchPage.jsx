@@ -1,4 +1,4 @@
-import { useState, lazy } from "react";
+import { useState, lazy, useEffect } from "react";
 import Card from "./Card";
 import NavBar from "./NavBar";
 import completedGames from "../Lists/Games/CompletedGames";
@@ -34,6 +34,18 @@ export default function SearchPage() {
   const [alreadyRecommended, SetAlreadyRecommended] = useState(false);
   // Hook for the score filter
   const [scoreToFilterBy, SetScoreToFilterBy] = useState("");
+
+  useEffect(() => {
+    // When typeOfListToDisplay changes we need to reset genre to a "" to show all available options
+    // This is to avoid the following case: if we are looking at movies and select western and after that we change to books, we will se an empty list
+    // because there is no western genre in books.
+    SetgenreToSearch("");
+  }, [typeOfListToDisplay]);
+
+  //Function to check if we just changed a state
+  function checkPrevState(state, setState) {
+    set;
+  }
 
   // By default we want to show completed items
   let books = completedBooks;
