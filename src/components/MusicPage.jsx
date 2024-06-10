@@ -8,7 +8,7 @@ import { useState, useEffect, useRef } from "react";
 /* Before upload i will need to limit the resets so the user only gets anew token if
  there is none stored or is about to expire. Let's do it!! */
 
-let dev = true;
+let dev = false;
 const fetchTokenURL = dev
   ? "http://localhost:3000/refresh_token"
   : "https://book-list-server.vercel.app/refresh_token";
