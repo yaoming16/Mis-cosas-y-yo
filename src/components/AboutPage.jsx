@@ -60,7 +60,7 @@ export default function AboutPage() {
             escuchadas en los últimos 6 meses.
           </p>
           <a
-            href="/search/index.html"
+            href="/Mis-cosas-y-yo/search/index.html"
             className="transition flex m-auto mt-5 md:w-3/4 text-white bg-custom-purple hover:bg-custom-dark-blue  font-medium rounded-lg text-sm px-5 py-2.5
             animate__animated animate__fadeIn animate__slow animate__delay-4s
       "
