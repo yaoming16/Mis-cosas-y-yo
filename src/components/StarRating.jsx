@@ -16,5 +16,7 @@ export default function StarRatings({ rating }) {
     return stars;
   }
 
-  return <div className="m-auto">{parse(addStars(rating))}</div>;
+  return (
+    <div className="m-auto text-xl sm:text-2xl">{parse(addStars(rating))}</div>
+  );
 }

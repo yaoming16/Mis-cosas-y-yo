@@ -29,6 +29,16 @@ let allLists = [
     display: "Música",
     id: 6,
   },
+  {
+    name: "Movies",
+    display: "Películas",
+    id: 7,
+  },
+  {
+    name: "Series",
+    display: "Series",
+    id: 8,
+  },
 ];
 
 export default allLists;

@@ -1,7 +1,7 @@
-// start id with 10000000001
+// start id with A1
 let completedAnimes = [
   {
-    id: 10000000001,
+    id: "A1",
     name: "Jujutsu Kaisen",
     author: "Gege Akutami / Mappa",
     review: ``,
@@ -12,7 +12,7 @@ let completedAnimes = [
     score: 8,
   },
   {
-    id: 10000000002,
+    id: "A2",
     name: "Shigatsu wa Kimi no Uso",
     author: "Naoshi Arakawa / A-1 Pictures",
     review: ``,
@@ -22,7 +22,7 @@ let completedAnimes = [
     score: 9,
   },
   {
-    id: 10000000003,
+    id: "A3",
     name: "Death Parade",
     author: "Yuzuru Tachikawa / Madhouse",
     review: ``,
@@ -32,7 +32,7 @@ let completedAnimes = [
     score: 7,
   },
   {
-    id: 10000000004,
+    id: "A4",
     name: "Bokurano",
     author: "Mohiro Kitoh / Gonzo",
     review: ``,
@@ -42,7 +42,7 @@ let completedAnimes = [
     score: 7,
   },
   {
-    id: 10000000005,
+    id: "A5",
     name: "Yuri!!! On Ice",
     author: "Mappa",
     review: ``,
@@ -52,7 +52,7 @@ let completedAnimes = [
     score: 8,
   },
   {
-    id: 10000000006,
+    id: "A6",
     name: "Charlotte",
     author: "Jun Maeda / P.A Works",
     review: ``,
@@ -62,7 +62,7 @@ let completedAnimes = [
     score: 6,
   },
   {
-    id: 10000000007,
+    id: "A7",
     name: "Super Lovers",
     author: "Abe Miyuki",
     review: ``,
@@ -72,7 +72,7 @@ let completedAnimes = [
     score: 6,
   },
   {
-    id: 10000000008,
+    id: "A8",
     name: "Your Name",
     author: "CoMix Wave Films",
     review: ``,
@@ -82,7 +82,7 @@ let completedAnimes = [
     score: 10,
   },
   {
-    id: 10000000009,
+    id: "A9",
     name: "Aldnoah Zero",
     author: "A-1 Pictures",
     review: ``,
@@ -93,7 +93,7 @@ let completedAnimes = [
     score: 7,
   },
   {
-    id: 10000000010,
+    id: "A10",
     name: "Stars Align",
     author: "Eight Bit",
     review: ``,
@@ -103,7 +103,7 @@ let completedAnimes = [
     score: 8,
   },
   {
-    id: 10000000011,
+    id: "A11",
     name: "Sasaki and Miyano",
     author: "Shō Harusono / Studio Deen",
     review: ``,
@@ -113,7 +113,7 @@ let completedAnimes = [
     score: 8,
   },
   {
-    id: 10000000012,
+    id: "A12",
     name: "March comes in like a lion",
     author: "Chica Umino / Shaft",
     review: ``,
@@ -124,7 +124,7 @@ let completedAnimes = [
     score: 10,
   },
   {
-    id: 10000000013,
+    id: "A13",
     name: "Code Geass",
     author: "Sunrise",
     review: ``,
@@ -134,7 +134,7 @@ let completedAnimes = [
     score: 10,
   },
   {
-    id: 10000000014,
+    id: "A14",
     name: "Trigun",
     author: "Yasuhiro Nightow / Madhouse",
     review: ``,
@@ -144,7 +144,7 @@ let completedAnimes = [
     score: 9,
   },
   {
-    id: 10000000016,
+    id: "A16",
     name: "Death Note",
     author: "Tsugumi Ōba / ",
     review: ``,
@@ -154,7 +154,7 @@ let completedAnimes = [
     score: 10,
   },
   {
-    id: 10000000017,
+    id: "A17",
     name: "Cowboy Bebop",
     author: "Sunrise",
     review: ``,
@@ -164,7 +164,7 @@ let completedAnimes = [
     score: 9,
   },
   {
-    id: 10000000018,
+    id: "A18",
     name: "Assassination Classroom",
     author: "Yūsei Matsui",
     review: ``,
@@ -174,7 +174,7 @@ let completedAnimes = [
     score: 8,
   },
   {
-    id: 10000000019,
+    id: "A19",
     name: "Knights of Sidonia",
     author: "Tsutomu Nihei / Polygon Pictures",
     review: ``,
@@ -184,7 +184,7 @@ let completedAnimes = [
     score: 8,
   },
   {
-    id: 10000000020,
+    id: "A20",
     name: "Elfen Lied",
     author: "Lynn Okamoto / GENCO, VAP",
     review: `La verdad que después de verlo no entiendo todo el hype que le hacen a la serie. El opening está bueno eso si...`,
@@ -194,7 +194,7 @@ let completedAnimes = [
     score: 4,
   },
   {
-    id: 10000000021,
+    id: "A21",
     name: "Inuyashiki Last Hero",
     author: " Hiroya Oku / Mappa",
     review: `Terrible anime, la verdad que unas pocas escenas interesantes me baitearon para verlo, gran error. Ni los personajes ni la historia son interesantes.`,
@@ -204,7 +204,7 @@ let completedAnimes = [
     score: 3,
   },
   {
-    id: 10000000022,
+    id: "A22",
     name: "Karneval",
     author: "Touya Mikanagi / Manglobe",
     review: ``,
@@ -214,7 +214,7 @@ let completedAnimes = [
     score: 6,
   },
   {
-    id: 10000000023,
+    id: "A23",
     name: "Schwarzes Marken",
     author: "",
     review: ``,
@@ -224,7 +224,7 @@ let completedAnimes = [
     score: 8,
   },
   {
-    id: 10000000024,
+    id: "A24",
     name: "Muu-Luv alternative: total eclipse",
     author: "Satelight",
     review: ``,
@@ -234,7 +234,7 @@ let completedAnimes = [
     score: 7,
   },
   {
-    id: 10000000025,
+    id: "A25",
     name: "Log Horizon",
     author: "Mamare Touno / Satelight, Studio Deen",
     review: `Es SAO pero bueno. Lastima que la tercera temporada salió muy tarde para mí...`,
@@ -244,7 +244,7 @@ let completedAnimes = [
     score: 7,
   },
   {
-    id: 10000000026,
+    id: "A26",
     name: "Psycho-Pass",
     author: "Production I.G",
     review: `La primera temporada está buena, la segunda es mejor hacer que no existe.`,
@@ -254,7 +254,7 @@ let completedAnimes = [
     score: 7,
   },
   {
-    id: 10000000027,
+    id: "A27",
     name: "Given",
     author: "Natsuki Kizu / Lerche",
     review: `La historia es excelente como en el manga pero el poder vivir la historia con la música hace que para mí el anime sea mucho mejor.`,
@@ -264,7 +264,7 @@ let completedAnimes = [
     score: 10,
   },
   {
-    id: 10000000028,
+    id: "A28",
     name: "ID: Invaded",
     author: "NAZ",
     review: `Está bien pero no me causó grandes pasiones.`,
@@ -274,7 +274,7 @@ let completedAnimes = [
     score: 5,
   },
   {
-    id: 10000000029,
+    id: "A29",
     name: "Uchuu Kyoudai",
     author: "",
     review: `Excelente anime. Es un anime bastante largo pero engancha con su trama. Puede parecer simple pero los personajes nos atrapan en su lucha por seguir sus sueños. `,
@@ -284,7 +284,7 @@ let completedAnimes = [
     score: 9,
   },
   {
-    id: 10000000030,
+    id: "A30",
     name: "Natsume Yujin-cho",
     author: "Yuki Midorikawa / Brain's Base",
     review: `Cada historia te deja algo y es imposible dejar de verlo.`,
@@ -294,7 +294,7 @@ let completedAnimes = [
     score: 9,
   },
   {
-    id: 10000000031,
+    id: "A31",
     name: "Orange",
     author: "Ichigo Takano / TMS Entertainment",
     review: `¿Cuántas cosas nos gustaría cambiar de nuestro pasado si pudiéramos? En esta historia aprendemos lo importante de vivir sin arrepentimientos, tomar las decisiones con las que vamos a estar orgullosos en el futuro`,
@@ -304,7 +304,7 @@ let completedAnimes = [
     score: 8,
   },
   {
-    id: 10000000032,
+    id: "A32",
     name: "Angel Beats!",
     author: "P.A. Works",
     review: `Excelente anime con un final que te destroza... Tiene la combinación perfecta de drama y comedia. `,
@@ -314,7 +314,7 @@ let completedAnimes = [
     score: 8,
   },
   {
-    id: 10000000033,
+    id: "A33",
     name: "Kitsutsuki Tanteidokoro",
     author: "Kei Ii / Liden Films",
     review: `Está bien pero no sale de la media`,
@@ -324,7 +324,7 @@ let completedAnimes = [
     score: 5,
   },
   {
-    id: 10000000034,
+    id: "A34",
     name: "Sword Art Online: Alicization",
     author: "Reki Kawahara / A-1 Pictures",
     review: `Teniendo cuenta que hablamos de Sao está bien... pero eso es poner la vara baja`,
@@ -334,7 +334,7 @@ let completedAnimes = [
     score: 6,
   },
   {
-    id: 10000000035,
+    id: "A35",
     name: "Kono Oto Tomare!",
     author: "Amyū / Platinum Vision",
     review: `Me gustan los animes de música en general y este cumple muy bien. Después de ver todo el esfuerzo de los personajes uno se siente contento con sus logros sobre el escenario.`,
@@ -344,7 +344,7 @@ let completedAnimes = [
     score: 7,
   },
   {
-    id: 10000000036,
+    id: "A36",
     name: "Shingeki no Kyojin",
     author: "Hajime Isayama / Wit Studio",
     review: `Buena historia con giros interesantes y personajes que uno los va queriendo al avanzar la serie. El final es code geass... y nadie me va a convencer de lo contrario. Erwin el mejor personaje Shinzo wo Sasageyo!`,
@@ -354,7 +354,7 @@ let completedAnimes = [
     score: 9,
   },
   {
-    id: 10000000037,
+    id: "A37",
     name: "Tokyo Ghoul",
     author: "Sui Ishida / Pierrot",
     review: `Buena historia, pero no me gusta mucho la adaptación que hicieron del manga. Aunque la historia del manga no es perfecta, es mucho mejor que el anime.`,
@@ -364,7 +364,7 @@ let completedAnimes = [
     score: 6,
   },
   {
-    id: 10000000038,
+    id: "A38",
     name: "JoJo",
     author: "Hirohiko Araki / A.P.P.P.",
     review: `Excelente anime de poderes. Joseph Joestar siempre va a ser el mejor jojo`,
@@ -374,7 +374,7 @@ let completedAnimes = [
     score: 9,
   },
   {
-    id: 10000000039,
+    id: "A39",
     name: "Steins Gate",
     author: "White Fox",
     review: `Si te gustan los viajes en el tiempo tenes que verlo. Si no te gustan los viajes en el tiempo igual hay que verlo. ¡Es perfecto! La segunda temporada baja un poco en mi opinión comparado con la primera pero de todas formas es excelente `,
@@ -384,7 +384,7 @@ let completedAnimes = [
     score: 10,
   },
   {
-    id: 10000000040,
+    id: "A40",
     name: "Piano no Mori",
     author: "Makoto Isshiki / Gaina",
     review: `Buen anime, es de música lo cual siempre es un punto a favor conmigo, pero tampoco me enloquece. La trama está bien, pero la animación no me gustó mucho, se vuelve extraña, casi incomoda, en algunas partes.`,
@@ -394,7 +394,7 @@ let completedAnimes = [
     score: 6,
   },
   {
-    id: 10000000041,
+    id: "A41",
     name: "Ginga Eiyuu Densetsu",
     author: " Yoshiki Tanaka / Kitty Films /Production I.G",
     review: `Tanto la serie del 88 como el remake más reciente son excelentes. Para mi es el anime perfecto, tanto los personajes, la historia y las reflexiones filosóficas que contiene. Es una serie para sentarse y pensar sobre lo que nos quiere decir, o llegar a nuestras propias conclusiones. Contiene acción, pero diría que es algo secundario por lo que es difícil de recomendar si es lo único que estás buscando. Pero si queres una historia profunda, que te deje en que pensar, con grandes personajes, entonces este anime es para vos. Recomiendo ver el remake si no te gusta la animación vieja, ambos son excelentes...`,
@@ -404,7 +404,7 @@ let completedAnimes = [
     score: 10,
   },
   {
-    id: 10000000042,
+    id: "A42",
     name: "Itsudatte Bokura no Koi wa 10 cm Datta",
     author: "",
     review: `Definitivamente lo ví pero no me acuerdo de nada por lo tanto se queda con un score de 0.`,
@@ -414,7 +414,7 @@ let completedAnimes = [
     score: 0,
   },
   {
-    id: 10000000043,
+    id: "A43",
     name: "Hitorijime My Hero",
     author: "Memeco Arii / Encourage Films",
     review: `Bien pero tampoco una locura`,
@@ -424,7 +424,7 @@ let completedAnimes = [
     score: 6,
   },
   {
-    id: 10000000044,
+    id: "A44",
     name: "Terra Formars",
     author: "Yū Sasuga / Liden Films",
     review: `Un anime de acción decente pero no me gusto para nada el cambio en el eestilo de la animación en la segunda temporada`,
@@ -434,7 +434,7 @@ let completedAnimes = [
     score: 6,
   },
   {
-    id: 10000000045,
+    id: "A45",
     name: "Owari no Seraph",
     author: "Takaya Kagami / Wit Studio",
     review: `Lo poco que recuerdo es que estaba bien pero no destacaba`,
@@ -444,7 +444,7 @@ let completedAnimes = [
     score: 6,
   },
   {
-    id: 10000000046,
+    id: "A46",
     name: "Heavy Object",
     author: "Kazuma Kamachi / J.C.Staff",
     review: `Normal, nada más que decir`,
@@ -454,7 +454,7 @@ let completedAnimes = [
     score: 6,
   },
   {
-    id: 10000000047,
+    id: "A47",
     name: "Junjou Romantica",
     author: "Shungiku Nakamura / Studio Deen",
     review: `Lo ví hace mucho y no recuerdo demasiado la verdad. En su momento me gustó pero no se si ahora pensaría lo mismo.`,
@@ -464,7 +464,7 @@ let completedAnimes = [
     score: 7,
   },
   {
-    id: 10000000048,
+    id: "A48",
     name: "Hibike! Euphonium",
     author: "Ayano Takeda / Kyoto Animation",
     review: `No es malo, pero tampoco lo recuerdo como algo muy destacable. Que sea de música ayuda para engancharme, pero no es suficiente`,
@@ -474,17 +474,7 @@ let completedAnimes = [
     score: 6,
   },
   {
-    id: 10000000049,
-    name: "Aldnoah.Zero",
-    author: "A-1 Pictures",
-    plot: `En 1972 se descubría un portal espacial en la superficie de la Luna con el que la humanidad entró en contacto con seres de Marte… lo que llevó a una guerra. 1999: El Imperio Bars finalmente declara la guerra a la Alianza Terrestre. Durante la fiera lucha, la hypergate perdía el control, destrozando la Luna. Han pasado 15 años desde entonces.`,
-    review: `Me acuerdo que lo ví en un día solo (la primera temporada). En su momento me gustó bastante, en retrospectiva no hay mucho para destacar.`,
-    genres: ["Acción", "Ciencia Ficción", "Mecha"],
-    favourite: false,
-    score: 7,
-  },
-  {
-    id: 10000000050,
+    id: "A50",
     name: "Zankyō no Terror",
     author: "Mappa",
     review: `Nada del otro mundo`,
@@ -494,7 +484,7 @@ let completedAnimes = [
     score: 6,
   },
   {
-    id: 10000000051,
+    id: "A51",
     name: "Ao Haru Ride",
     author: "Io Sakisaka / Production I.G",
     review: `Tengo el manga completo y es una lástima que no lo hayan adoptado completo en el anime. De todas formas, está muy bueno y vale la pena verlo`,
@@ -504,7 +494,7 @@ let completedAnimes = [
     score: 8,
   },
   {
-    id: 10000000052,
+    id: "A52",
     name: "Sword Art Online II",
     author: "A-1 Pictures",
     review: `No. Peor que la primera`,
@@ -514,7 +504,7 @@ let completedAnimes = [
     score: 4,
   },
   {
-    id: 10000000053,
+    id: "A53",
     name: "Sword Art Online",
     author: "A-1 Pictures",
     review: `Para su momento fue entretenida pero no, no merece el 6 que le estoy dando...`,
@@ -524,7 +514,7 @@ let completedAnimes = [
     score: 6,
   },
   {
-    id: 10000000054,
+    id: "A54",
     name: "No Game No Life",
     author: "Yū Kamiya / Madhouse",
     review: `En su momento me gustaba, es decente`,
@@ -534,7 +524,7 @@ let completedAnimes = [
     score: 6,
   },
   {
-    id: 10000000055,
+    id: "A55",
     name: "Gokukoku no Brynhildr",
     author: "Lynn Okamoto / Arms",
     review: `En su momento no me gustó y si antes no me gustó ahora de seguro menos`,
@@ -544,7 +534,7 @@ let completedAnimes = [
     score: 2,
   },
   {
-    id: 10000000056,
+    id: "A56",
     name: "Valvrave the Liberator",
     author: "Sunrise",
     review: ``,
@@ -554,7 +544,7 @@ let completedAnimes = [
     score: 7,
   },
   {
-    id: 10000000057,
+    id: "A57",
     name: "Phi Brain: Kami no Puzzle",
     author: "Sunrise",
     review: `Entretenido anime en el que los personajes tienen que resolver puzzles`,
@@ -564,7 +554,7 @@ let completedAnimes = [
     score: 7,
   },
   {
-    id: 10000000058,
+    id: "A58",
     name: "Neon Genesis Evangelion",
     author: "Hideaki Anno / Gainax",
     review: `Simplemente perfecto. Un clásico que todo el mundo tendría que ver, desde la serie original hasta las películas más recientes.`,
@@ -574,7 +564,7 @@ let completedAnimes = [
     score: 10,
   },
   {
-    id: 10000000059,
+    id: "A59",
     name: "Zetsuen no Tempest",
     author: "Sano y Ren Saizaki / Bones",
     review: `Estoy un poco olvidado de los detalles pero recuerdo que me gustó mucho cuando la vi. Tenía varios giros y general era entretenida.`,
@@ -584,7 +574,7 @@ let completedAnimes = [
     score: 8,
   },
   {
-    id: 10000000060,
+    id: "A60",
     name: "Uchuu Senkan Yamato 2199",
     author: "AIC / Xebec ",
     review: `Muy bueno y entretenido. Si se quiere no tiene nada muy original pero está bien hecho. Para aclara no vi el original, solo este remake`,
@@ -594,7 +584,7 @@ let completedAnimes = [
     score: 8,
   },
   {
-    id: 10000000061,
+    id: "A61",
     name: "Hyouka",
     author: "Honobu Yonezawa / Kyoto Animation",
     review: `Lindo anime para ver, siempre lo recuerdo con cariño. Tirar un paquete de harina nunca fue tan significativo para un personaje... Lástima que nunca lo siguieron.`,
@@ -604,7 +594,7 @@ let completedAnimes = [
     score: 9,
   },
   {
-    id: 10000000062,
+    id: "A62",
     name: "Sakamichi no Apollon",
     author: "Yuki Kodama / Mappa",
     review: `Otro anime de música, pero este sí que está bien hecho. Los personajes están bien hechos y uno logra simpatizar con los conflictos que ellos enfrentan`,
@@ -614,7 +604,7 @@ let completedAnimes = [
     score: 9,
   },
   {
-    id: 10000000063,
+    id: "A63",
     name: "Kimi to Boku",
     author: "Kiichi Hotta / J.C.Staff",
     review: ``,
@@ -624,7 +614,7 @@ let completedAnimes = [
     score: 7,
   },
   {
-    id: 10000000064,
+    id: "A64",
     name: "Sekaiichi Hatsukoi",
     author: "Shungiku Nakamura / Studio Deen",
     review: ``,
@@ -634,7 +624,7 @@ let completedAnimes = [
     score: 7,
   },
   {
-    id: 10000000065,
+    id: "A65",
     name: "No. 6",
     author: "Atsuko Asano / Bones",
     review: ``,
@@ -644,7 +634,7 @@ let completedAnimes = [
     score: 7,
   },
   {
-    id: 10000000066,
+    id: "A66",
     name: "Kimi ni Todoke",
     author: "Karuho Shiina / Production I.G",
     review: ``,
@@ -654,7 +644,7 @@ let completedAnimes = [
     score: 7,
   },
   {
-    id: 10000000067,
+    id: "A67",
     name: "Heroic Age",
     author: "Xebec",
     review: ``,
@@ -664,7 +654,7 @@ let completedAnimes = [
     score: 7,
   },
   {
-    id: 10000000068,
+    id: "A68",
     name: "Gakuen Heaven",
     author: "Spray",
     review: ``,
@@ -674,7 +664,7 @@ let completedAnimes = [
     score: 7,
   },
   {
-    id: 10000000069,
+    id: "A69",
     name: "Blood+",
     author: "Production I.G",
     review: `Lo vi hace mucho pero por lo que recuerdo estaba bien.`,
@@ -684,7 +674,7 @@ let completedAnimes = [
     score: 7,
   },
   {
-    id: 10000000070,
+    id: "A70",
     name: "Howl no Ugoku Shiro",
     author: "Studio Ghibli",
     review: `Excelente película. Si algo nos tiene que quedar es que a veces las apariencias engañan y más importante que nuestro exterior es lo que sentimos en nuestro interior.`,
@@ -694,7 +684,7 @@ let completedAnimes = [
     score: 10,
   },
   {
-    id: 10000000071,
+    id: "A71",
     name: "Spirited Away",
     author: "Studio Ghibli",
     review: `Otra muy buena película, es simplemente mágica.`,
@@ -704,7 +694,7 @@ let completedAnimes = [
     score: 9,
   },
   {
-    id: 10000000072,
+    id: "A72",
     name: "La colina de las amapolas",
     author: "Studio Ghibli",
     review: `Mi película favorita del estudio Gibli. No tendríamos que olvidarnos del pasado porque lo necesitamos para darle significado al presente y ayudarnos a entender quienes somos.`,
@@ -714,7 +704,7 @@ let completedAnimes = [
     score: 10,
   },
   {
-    id: 10000000073,
+    id: "A73",
     name: "Kiki: Entregas a domicilio",
     author: "Studio Ghibli",
     review: ``,
@@ -722,6 +712,26 @@ let completedAnimes = [
     genres: ["Drama", "Fantasia"],
     favourite: false,
     score: 8,
+  },
+  {
+    name: "Doukyuusei",
+    author: "Shoko Nakamura",
+    plot: `Una tierna historia de amor entre dos compañeros de clase en una escuela secundaria masculina. Rihito Sajou, un estudiante sobresaliente, y Hikaru Kusakabe, un guitarrista en una banda de rock, desarrollan una profunda conexión mientras se preparan para el festival de coro de la escuela.`,
+    genres: ["Romance", "Boys Love", "Drama"],
+    id: "A74",
+    review: `Muy linda película que vuelvo a ver cada tanto`,
+    favourite: true,
+    score: 8,
+  },
+  {
+    name: "Un Extraño a la Orilla del Mar",
+    author: "Akiyo Ohashi",
+    plot: `Shun Hashimoto, un aspirante a novelista, y Mio Chibana, un joven estudiante de secundaria, se encuentran en una tranquila isla. Ambos desarrollan una profunda conexión, pero Mio repentinamente deja la isla. Tres años después, regresa para enfrentar sus sentimientos por Shun y explorar su relación mientras lidian con sus propios miedos e inseguridades.`,
+    genres: ["Romance", "Drama", "Boys Love"],
+    id: "A75",
+    review: ``,
+    favourite: false,
+    score: 7,
   },
 ];
 

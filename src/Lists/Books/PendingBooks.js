@@ -170,6 +170,13 @@ let pendingBooks = [
     plot: "Los ejércitos del Señor Oscuro van extendiendo cada vez más su maléfica  sombra por la Tierra Media. Hombres, elfos y enanos unen sus fuerzas  para presentar batalla a Sauron y sus huestes. Ajenos a estos  preparativos, Frodo y Sam siguen adentrándose en el país de Mordor en su  heroico viaje para destruir el Anillo de Poder en las Grietas del  Destino.",
     genres: ["Fantasía"],
   },
+  {
+    name: "La Esfera Luminosa",
+    author: "Liu Cixin",
+    plot: `Una misteriosa esfera luminosa aparece en la Tierra, poseyendo propiedades físicas extraordinarias y desafiando las leyes de la ciencia. Un grupo de científicos y militares deben trabajar juntos para descubrir su origen y propósito antes de que sus secretos desaten un caos global.`,
+    genres: ["Ciencia ficción"],
+    id: 10000025,
+  },
 ];
 
 export default pendingBooks;

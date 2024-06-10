@@ -33,7 +33,7 @@ export default function Card(props) {
           <div className="mt-2 text-lg flex flex-row flex-wrap justify-center italic">
             {genres.map((item, index) => (
               <span className="mr-2" key={index}>
-                {item},
+                {item + (genres.length - 1 !== index ? ", " : "")}
               </span>
             ))}
           </div>

@@ -59,6 +59,22 @@ let genresBooks = [
     name: "Novela Histórica",
     id: 15,
   },
+  {
+    name: "Novela",
+    id: 16,
+  },
+  {
+    name: "Biografía",
+    id: 17,
+  },
+  {
+    name: "Misterio",
+    id: 18,
+  },
+  {
+    name: "Cuento",
+    id: 19,
+  },
 ];
 
 export default genresBooks;

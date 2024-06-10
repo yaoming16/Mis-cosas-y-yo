@@ -14,7 +14,9 @@ export default function topTracksCard({ data, number }) {
       <div className="ml-2 flex flex-col lg:flex-row">
         <p className="font-bold">{name}</p>
         {artists.map((artist, index) => (
-          <p key={index}>{artist.name}</p>
+          <p className="ml-2" key={index}>
+            {artist.name}
+          </p>
         ))}
       </div>
     </div>

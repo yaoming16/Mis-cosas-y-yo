@@ -7,11 +7,13 @@ import completedMangas from "../Lists/Mangas/CompletedMangas";
 import completedAnimes from "../Lists/Animes/CompletedAnimes";
 import completedPlays from "../Lists/Theater/CompletedPlays";
 import completedMusic from "../Lists/Music/CompletedMusic";
+import completedMovies from "../Lists/Movies/CompletedMovies";
+import completedSeries from "../Lists/Series/CompletedSeries";
 import pendingGames from "../Lists/Games/PendingGames";
 import pendingBooks from "../Lists/Books/PendingBooks";
 import pendingMangas from "../Lists/Mangas/PendingMangas";
 import Accordion from "./Accordion";
-import BackToTopButton from "./BackToTopButton";
+import ScrollTopButton from "./ScrollTopButton";
 
 export default function SearchPage() {
   // We need this state to get the words from the input we will use to search the book list
@@ -39,6 +41,8 @@ export default function SearchPage() {
   let animes = completedAnimes;
   let plays = completedPlays;
   let music = completedMusic;
+  let movies = completedMovies;
+  let series = completedSeries;
 
   // This array will contain the result of the books list after filtered by the parameters entered by the user.
   let listToDisplay;
@@ -50,6 +54,9 @@ export default function SearchPage() {
     // For categories other than the above i don't plan to add a pending list for now. So if the user wants to see pending of the categories below we set them to a an empty array.
     animes = [];
     plays = [];
+    music = [];
+    movies = [];
+    series = [];
   }
 
   // We will set the variables depending on the list selected determined by listToDisplay. The || typeOfListToDisplay === "" is to set the default option
@@ -65,6 +72,10 @@ export default function SearchPage() {
     listToDisplay = plays;
   } else if (typeOfListToDisplay === "Music") {
     listToDisplay = music;
+  } else if (typeOfListToDisplay === "Series") {
+    listToDisplay = series;
+  } else if (typeOfListToDisplay === "Movies") {
+    listToDisplay = movies;
   }
 
   // By default we will filter the array alphabetically
@@ -144,7 +155,7 @@ export default function SearchPage() {
     <div className="">
       <NavBar></NavBar>
 
-      <div className="w-3/4 m-auto border-4 border-custom-dark-blue rounded-xl mt-4 bg-custom-lighter-cyan">
+      <div className="m-6 sm:w-3/4 sm:m-auto sm:mt-6 border-4 border-custom-dark-blue rounded-xl bg-custom-lighter-cyan">
         <Accordion
           SetwordsToSearch={SetwordsToSearch}
           SetgenreToSearch={SetgenreToSearch}
@@ -164,22 +175,32 @@ export default function SearchPage() {
           title={"Filtros"}
         ></Accordion>
       </div>
-      <BackToTopButton></BackToTopButton>
+
+      <ScrollTopButton></ScrollTopButton>
+
       {
         // We want to check if the user wants to see a random recommendation or a list if items
         !displayRandomRecommendation ? (
-          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-10 p-3 md:p-5 lg:p-7 xl:p-10  m-auto lg:w-[95%] 2xl:w-[90%]">
-            {listToDisplay.map((item) => (
-              <Card
-                item={item}
-                key={item.id}
-                typeOfListToDisplay={typeOfListToDisplay}
-                pendingCard={displayPending}
-              ></Card>
-            ))}
-          </div>
+          displayPending && listToDisplay.length === 0 ? (
+            <div className="flex mt-8 p-3">
+              <p className="m-auto font-bold text-2xl sm:text-4xl text-center">
+                No hay pendientes en esta categoría
+              </p>
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-10 p-3 md:p-5 lg:p-7 xl:p-10  m-auto lg:w-[95%] 2xl:w-[90%]">
+              {listToDisplay.map((item) => (
+                <Card
+                  item={item}
+                  key={item.id}
+                  typeOfListToDisplay={typeOfListToDisplay}
+                  pendingCard={displayPending}
+                ></Card>
+              ))}
+            </div>
+          )
         ) : randomToDisplay ? (
-          <div className="flex m-auto p-3 lg:w-3/4 ">
+          <div className="grid grid-cols-1 p-3 lg:w-1/2 m-auto">
             <Card
               item={randomToDisplay}
               typeOfListToDisplay={typeOfListToDisplay}

@@ -1,7 +1,7 @@
-// start id with 1000000000001
+// start id with P1
 let completedPlays = [
   {
-    id: 1000000000001,
+    id: "P1",
     name: "La Trágica Historia del Doctor Fausto",
     author: "Christopher Marlowe / Rubén Szuchmacher",
     plot: `Estrenada en 1592, La Trágica Historia del Doctor Fausto es la obra fundamental de Christopher Marlowe, el gran autor del teatro isabelino predecesor de Shakespeare. Fausto es el primer gran personaje de la historia del teatro inglés que, descontento en su lucha incansable e insatisfecha por el Conocimiento, pacta con el Diablo la entrega de su alma a cambio de contar con 24 años de los servicios ilimitados de Mefistófeles.`,
@@ -11,7 +11,7 @@ let completedPlays = [
     score: 7,
   },
   {
-    id: 1000000000002,
+    id: "P2",
     name: "Esperando la Carroza",
     author: "Jacobo Langsner / Jimena Márquez",
     plot: `Mama Cora se acerca a los 80 años y vive con el más pobre de sus hijos. La familia decide reunirse para hablar sobre quien será el próximo en cuidar la madre y todo el mundo intenta esquivar la responsabilidad. Las discusiones se terminan cuando reciben la noticia que Mama Cora ha desaparecido. Ahora todo serán lamentaciones.`,
@@ -21,7 +21,7 @@ let completedPlays = [
     score: 9,
   },
   {
-    id: 1000000000003,
+    id: "P3",
     name: "Constante",
     author: "Pedro Calderón de la Barca / Gabriel Calderón",
     plot: `Constante es una obra escrita por el chileno Guillermo Calderón y el uruguayo Gabriel Calderón, en base a El Príncipe Constante, de Pedro Calderón de la Barca. Es un clásico reversionado en el cual, los autores han decidido "quemar la biblioteca –parafraseando a Borges-" y “trabajar con el texto como si estuviese perdido, como si ya no se pudiera acceder a él, como si lo soñáramos mal, tradujéramos peor, tal vez traicionando a Calderón, pero siendo fieles al Teatro”, explica su director.
@@ -32,7 +32,7 @@ let completedPlays = [
     score: 7,
   },
   {
-    id: 1000000000004,
+    id: "P4",
     name: "Edipo Rey",
     author: "Sófocles / Andrés Lima",
     plot: `Para Aristóteles, Edipo era el ejemplo ideal de tragedia. Esta obra clásica del teatro griego sigue representándose hasta hoy en los teatros del mundo, porque sus temas conmueven, más allá de las épocas. Edipo Rey representa varios de los conflictos humanos y arquetipos psicológicos y sociológicos: poder, violencia, superstición, fe, amor, incesto, crimen, castigo y compasión. Todo es cuestionado en esta obra.
@@ -43,7 +43,7 @@ let completedPlays = [
     score: 8,
   },
   {
-    id: 1000000000005,
+    id: "P5",
     name: "Frankenstein",
     author: "Mary Shelly / Andrea Arobba",
     plot: `¿Qué ocurre cuando se traspasan los límites de lo humano? ¿Podemos generar sin desaparecer una inteligencia que nos supere? Esas preguntas premonitorias, hoy más contemporáneas que nunca, estaban presentes en “Frankenstein o el moderno Prometeo”, una novela escrita al inicio del siglo XIX por una mujer de dieciocho años, Mary Shelley.
@@ -55,7 +55,7 @@ let completedPlays = [
     score: 4,
   },
   {
-    id: 1000000000006,
+    id: "P6",
     name: "Macondo",
     author: "Gabriel Garcia Marquez / Varios",
     plot: `Macondo es un acontecimiento cultural de Montevideo; una plataforma para homenajear al escritor colombiano Gabriel García Márquez y para mostrar la potencia y riqueza expresiva del arte latinoamericano contemporáneo.
@@ -68,7 +68,7 @@ let completedPlays = [
     score: 6,
   },
   {
-    id: 1000000000007,
+    id: "P7",
     name: "Díptico",
     author: "Carla Zúñiga",
     plot: `La dramaturga chilena Carla Zúñiga propone un díptico con dos obras reflexivas, pero con tonos distintos. Por un lado, “Un montón de brujas volando por el cielo", una comedia negra que reflexiona sobre el dolor y sobre cómo nos podemos hacer cargo de él, a la vez que nos interpela sobre la posibilidad de resignificar la emocionalidad y la posibilidad de desarticular el concepto de “bruja”. Por otro lado, "La violación de una actriz de teatro”, que habla de la importancia de nombrar, de hablar de las experiencias de abuso, de que como sociedad seamos capaces de hablar del dolor; de la importancia de creer en los testimonios de las víctimas y de reflexionar sobre la complejidad del abuso.`,
@@ -78,7 +78,7 @@ let completedPlays = [
     score: 8,
   },
   {
-    id: 1000000000008,
+    id: "P8",
     name: "La Gayina",
     author: "Horacio Quiroga / Israel Adrián Caetano",
     plot: `La Gallina Degollada de Horacio Quiroga es el cuento que da origen a esta obra y se encuentra en el libro Cuentos de amor de locura y de muerte (1917) que cuenta la historia de una familia con cuatro hijos con discapacidad, una hija neurotípica y el horror de la discriminación y el maltrato.
@@ -89,7 +89,7 @@ let completedPlays = [
     score: 8,
   },
   {
-    id: 1000000000009,
+    id: "P9",
     name: "Finlandia",
     author: "Pascal Rambert",
     plot: `Una pareja que se amó apasionadamente, ahora se destroza con el fin de lograr la custodia de su hija. Sobre el resentimiento y dolor escondido en cada humano, va este drama escrito por el francés Pascal Rambert, una de las figuras más destacadas de la escena internacional en la actualidad. Pascal es director, autor y realizador, y se encuentra en Montevideo especialmente para dirigir al elenco.`,
@@ -99,7 +99,7 @@ let completedPlays = [
     score: 8,
   },
   {
-    id: 1000000000010,
+    id: "P10",
     name: "Tiempo Slavaje",
     author: "Josep Maria Miró",
     plot: `La obra transcurre en una tranquila urbanización fronteriza donde se organizará una celebración, cerca de una zona donde transitan personas extranjeras de manera irregular. Con la aparición de provocativas pintadas, la paz del pueblo se altera y tras el miedo aparecen las suposiciones y la violencia para trastocar la rutina y la vida interior de esos habitantes.
@@ -110,7 +110,7 @@ let completedPlays = [
     score: 9,
   },
   {
-    id: 1000000000011,
+    id: "P11",
     name: "Las Actas",
     author: "Margarita Musto",
     plot: `En octubre de 2005 la justicia argentina pide la extradición de militares uruguayos para juzgarlos por el secuestro en Buenos Aires y el traslado ilegal a Montevideo de María Claudia García de Gelman. La muchacha estaba embarazada y dio a luz en el Hospital Militar. La bebé fue entregada a un comisario de Policía. La madre hasta hoy sigue desaparecida.
@@ -128,7 +128,7 @@ let completedPlays = [
     score: 8,
   },
   {
-    id: 1000000000012,
+    id: "P12",
     name: "El Salto de Darwin",
     author: "Sergio Blanco / Roxana Blanco",
     plot: `El segundo fin de semana de junio del año 1982 se libra la última batalla de la Guerra de las Malvinas que culmina con la rendición del 14 de junio. Toda la acción se desarrolla en la Ruta Nacional N°40, que desciende la Argentina desde el Norte hacia el Sur, en torno a un Ford Falcon del año 1971 en el cual una familia atraviesa el país para esparcir las cenizas del hijo asesinado recientemente en la batalla que ha tenido lugar en la localidad de Puerto Darwin.`,
@@ -138,7 +138,7 @@ let completedPlays = [
     score: 7,
   },
   {
-    id: 1000000000013,
+    id: "P13",
     name: "Todo su asco del mundo",
     author: "Thomas Bernhard",
     plot: `En los años 80 Thomas Bernhard escribe una serie de piezas cortas: sus emblemáticos dramolette. Teatro y política, asuntos omnipresentes en la obra completa del autor austríaco aparecen también aquí condensados en un conjunto de entremeses feroces que se nutren de la realidad.
@@ -149,7 +149,7 @@ let completedPlays = [
     score: 7,
   },
   {
-    id: 1000000000014,
+    id: "P14",
     name: "Cuando deje de llover",
     author: "Andrew Bovell / Fernando Toja",
     plot: `La obra nos cuenta la historia de cuatro generaciones de una misma familia donde se repiten una serie de patrones sin que ellos sean conscientes de ello. A través de mostrarnos el presente y el pasado vamos conociendo la historia de una forma no lineal. Una historia contada como un puzzle en el que al final todo encaja
@@ -160,7 +160,7 @@ let completedPlays = [
     score: 9,
   },
   {
-    id: 1000000000015,
+    id: "P15",
     name: "Historias de amputación a la hora del té",
     author: "Carla Zúñiga / Vladimir Bondiuk Petruk",
     plot: `Historias de amputación a la hora del té es una comedia negra que nos sumerge en la última semana de vida de Laurita, una joven que cumple 20 años y sueña con conocer a su padre.
@@ -173,7 +173,7 @@ let completedPlays = [
     score: 8,
   },
   {
-    id: 1000000000016,
+    id: "P16",
     name: "Esa relación tan delicada",
     author: "Loleh Bellon / Sergio Dotta",
     plot: `La relación entre madre e hija da lugar a la autora francesa a indagar en el universo íntimo de padres e hijos: conflictos, amores, rencores y frustraciones emergen a la superficie de esta comedia dramática donde todo es lo que parece ser y donde los sentimientos humanos están interpretados de acuerdo a la mirada de quien proviene. El humor asordinado, el dolor de los desencuentros, el amor profundo y las rivalidades eternas están contados con ternura y una mirada humana a través de la cual todos podemos vernos reflejados.`,
@@ -183,7 +183,7 @@ let completedPlays = [
     score: 0,
   },
   {
-    id: 1000000000017,
+    id: "P17",
     name: "Pequeños actos pedagógicos revolucionarios",
     author: "Micaela Fraga / Nicolás Tapia",
     plot: `La obra comienza con la inquietante situación de un grupo de docentes de arte que en marzo aún están esperando poder elegir horas para empezar a trabajar. Frente a este conflicto se van develando personalidades, deseos y convicciones. En un principio, docentes y funcionarios del sistema parecen ser enemigos irreconciliables.
@@ -194,7 +194,7 @@ let completedPlays = [
     score: 7,
   },
   {
-    id: 1000000000018,
+    id: "P18",
     name: "Consentimiento",
     author: "Nina Raine / Lucio Hernández",
     plot: `¿Por qué se dice que la Justicia es ciega? ¿Es por su imparcialidad? ¿O por su estrechez de miras?
@@ -206,7 +206,7 @@ let completedPlays = [
     score: 8,
   },
   {
-    id: 1000000000019,
+    id: "P19",
     name: "Esta Gaviota no es de Chéjov",
     author: "Felipe Ipar",
     plot: `En el camarín de un teatro destruido por la guerra, Treplev, fascinado por la destrucción, se pregunta para qué seguir viniendo a hacer función. Siente que todas las formas de teatro están viejas, que ya no tiene en qué creer.
@@ -219,7 +219,7 @@ let completedPlays = [
     score: 5,
   },
   {
-    id: 1000000000020,
+    id: "P20",
     name: "Tres versiones de la vida",
     author: "Yasmina Reza / Juan Antonio Saraví",
     plot: `El plan es perfecto: si agasajamos al Jefe y su Señora con una linda cena en la paz del hogar, todo va a salir bien y aún podrá mejorar… en varios sentidos.
@@ -230,7 +230,7 @@ let completedPlays = [
     score: 8,
   },
   {
-    id: 1000000000021,
+    id: "P21",
     name: "Todo bien mientras nos muramos por orden de ascendencia",
     author: "Ivor Martinić / Leonel Schmidt",
     plot: `Una noche la ciudad es azotada por una terrible  tormenta, las calles se inundan, la ciudad es un caos. Casi que refugiados en su restaurante, la familia de Paolo, que migra esta misma noche hacia Estados Unidos, lo espera ansiosamente para despedirse. Janko, padre de Paolo, lidia con sus frustraciones, Elza, la exmujer de Janko, se resiste a asumir el fracaso de la familia. Lucija, exnovia de Paolo, se niega a creer que un amor joven pueda morir tan rápido. Y Nikolina, la actual pareja de Janko, no quiere darse cuenta que no hay un futuro para su relación. `,
@@ -240,7 +240,7 @@ let completedPlays = [
     score: 8,
   },
   {
-    id: 1000000000022,
+    id: "P22",
     name: "Los lugares intermedios",
     author: "María Eugenia Puyol / Soledad Lacassy",
     plot: `Elisa se niega a hablar del dolor que atraviesa. Como ella, cinco jóvenes lidian con sus duelos y con el peso de sus decisiones.
@@ -252,7 +252,7 @@ let completedPlays = [
     score: 5,
   },
   {
-    id: 1000000000023,
+    id: "P23",
     name: "El árbol de Elisa",
     author: "Cecilia Baranda",
     plot: `El árbol de Elisa es una metáfora de la sociedad.
@@ -265,7 +265,7 @@ let completedPlays = [
     score: 6,
   },
   {
-    id: 1000000000024,
+    id: "P24",
     name: "María",
     author: "Noelia Herrera Luzardo",
     plot: `Una ciudad, un edificio, dos microapartamentos linderos. En cada uno de ellos vive una mujer.
@@ -276,7 +276,7 @@ let completedPlays = [
     score: 7,
   },
   {
-    id: 1000000000025,
+    id: "P25",
     name: "Zombi Manifiesto",
     author: "Santiago Sanguinetti",
     plot: `Dos jóvenes descubren que los soldados enterrados en el Panteón Militar del cementerio local cobran vida convertidos en zombis cuando alguien recita fragmentos del Manifiesto Comunista. Así, despiertan y secuestran a un teniente del Ejército Nacional para encerrarlo en un sótano y obligarlo a aprender filosofía marxista. Él aún recuerda al responsable de su muerte y la búsqueda de justicia post mortem lo hace escapar, complicando las cosas en un pueblo en el que pocas veces sucede algo extraño. Una comedia sobre una traición y una venganza, marcada por los alcances de la conciencia de clase.`,
@@ -286,7 +286,7 @@ let completedPlays = [
     score: 9,
   },
   {
-    id: 1000000000026,
+    id: "P26",
     name: "Demos Kratos",
     author: "Andrea Arobba",
     plot: `La democracia es la administración del disenso, pero también la denodada búsqueda de coincidencia y encuentro. En un momento en el que la región parece cada vez más sumida en la polarización y la degradación del otro, el arte permite recordar que la información, los mensajes y los relatos constituyen una trama compleja, ante la cual nada debe considerarse una verdad absoluta y excluyente.
@@ -297,7 +297,7 @@ let completedPlays = [
     score: 3,
   },
   {
-    id: 1000000000027,
+    id: "P27",
     name: "Ante la jubilación",
     author: "Thomas Bernhard / Margarita Musto y Levón",
     plot: `La obra nos enfrenta a una familia intoxicada por el nazismo. Una muestra del amplio espectro de síntomas que vive aún hoy una buena parte de la humanidad. No se trata simplemente de una ideología, de un monstruo histórico, sino de una enfermedad espiritual que supervive en la oscuridad y en muchos rincones de la sociedad actual. Unos hermanos afectados por el virus de la mutación actual del nazismo, encerrados en una existencia familiar falsa, en una prisión estrecha y asfixiante, creada y custodiada por ellos mismos en el que se respira el odio, el miedo y la imposibilidad de ser feliz.`,
@@ -307,7 +307,7 @@ let completedPlays = [
     score: 9,
   },
   {
-    id: 1000000000028,
+    id: "P28",
     name: "Burn, baby burn",
     author: "Carine Lacroix / Fernando Toja",
     plot: `El encuentro de dos jóvenes en un desértico espacio, una vieja estación de
@@ -324,7 +324,7 @@ let completedPlays = [
     score: 6,
   },
   {
-    id: 1000000000029,
+    id: "P29",
     name: "El río",
     author: "Dino Armas / Lila García",
     plot: `Descarnado relato de un drama familiar. Allí, donde acontece lo terrible, nace la resiliencia y surge la empatía. Allí, la crueldad fue vencida por el amor. Tres mujeres, tres vidas, una historia.`,
@@ -334,7 +334,7 @@ let completedPlays = [
     score: 7,
   },
   {
-    id: 1000000000030,
+    id: "P30",
     name: "De dioses, personitas y policías",
     author: "Humberto Costantini / Marina Rodríguez",
     plot: `Humberto Costantini comenzó la escritura de esta historia de amor, de humor y de poesía bajo la pavorosa amenaza de la muerte en 1975. La fue escribiendo a los saltos, escondido, perseguido. Consciente del peligro que corría su vida tras el golpe militar del 24 de marzo de 1976, tomó sus recaudos para salvar la obra: hacía cuatro copias del texto: una para él y las otras repartidas para su resguardo entre sus familiares.
@@ -345,7 +345,7 @@ let completedPlays = [
     score: 7,
   },
   {
-    id: 1000000000031,
+    id: "P31",
     name: "El Disparo",
     author: "Estela Golovchenko / Graciela Escuder",
     plot: `En esta obra la autora enfoca la relación entre una mujer madura y un joven que ha entrado a su casa. Jugando en diversos planos de realidad, aborda temas como la justicia, la culpa, la venganza y el perdón, que no son categorías éticas abstractas, sino una presencia en nuestra vida y en nuestra sociedad.`,
@@ -355,7 +355,7 @@ let completedPlays = [
     score: 7,
   },
   {
-    id: 1000000000032,
+    id: "P32",
     name: "Agosto",
     author: "Trecy Letts / Héctor Guido",
     plot: `«Agosto: Condado Osage» trata de una familia disfuncional, con problemas típicos de la familia contemporánea, aparentemente normal hasta que surge un hecho clave que motiva un desenlace inesperado, mostrando el lado oscuro de ese núcleo social. Una madre que consume todo tipo de pastillas, una narcodependiente, ácidamente mordaz; un padre bebedor que desaparece; hijas abandonadas, con verdades reprimidas y secretos.`,
@@ -365,7 +365,7 @@ let completedPlays = [
     score: 8,
   },
   {
-    id: 1000000000033,
+    id: "P33",
     name: "Ushuaia",
     author: "Alberto Conejero / Sergio Luján",
     plot: `La llegada de Nina a Ushuaia como asistenta del anciano Mateo, pronto generará que los secretos guardados de un pasado terrible emerjan a la luz. La búsqueda de memoria, verdad, y justicia se abre paso en la trama, como las raíces de los árboles añosos de esa Tierra del Fuego, que el viento austral arrasa incansablemente. La historia de un genocidio es la historia de todos los genocidios`,
@@ -375,7 +375,7 @@ let completedPlays = [
     score: 6,
   },
   {
-    id: 1000000000034,
+    id: "P34",
     name: "Angélica",
     author: "Pablo Albarello",
     plot: `Esta comedia fue escrita ajustándose a situaciones y realidades actuales, tomando como relatores a dos hombres de campo, enfrentados a una situación compleja e hilarante.
@@ -388,7 +388,7 @@ let completedPlays = [
     score: 7,
   },
   {
-    id: 1000000000035,
+    id: "P35",
     name: "Dos hemisferios",
     author:
       "Coreografía : Gemma Bond y Iñaka Urlezaga / Música: Tchaikovsky y Piazzolla",
@@ -399,7 +399,7 @@ let completedPlays = [
     score: 8,
   },
   {
-    id: 1000000000036,
+    id: "P36",
     name: "El Cascanueces",
     author: "Coreografía: Silvia Bazilis / Música: Tchaikovsky",
     plot: `El ballet de Tchaikovsky, El cascanueces, está basado en una historia de la autora alemana ETA Hoffmann. Este popular cuento navideño, recrea, durante la celebración de la Nochebuena, la historia de Clarita, quien recibe como obsequio un cascanueces con figura de soldado, el cual cobra vida como un apuesto príncipe y, después de derrotar al Rey Ratón en una dura batalla, la lleva a un viaje a países maravillosos, lleno de encanto y fantasía.`,
@@ -409,7 +409,7 @@ let completedPlays = [
     score: 9,
   },
   {
-    id: 1000000000037,
+    id: "P37",
     name: "Mirame que nos miran",
     author: "Julieta Lucena / Soledad Lacassy",
     plot: `En un intento por salvar el vínculo de una cotidianidad de cartón, ella le propone a él escribir una obra sobre su relación, que atraviese los diferentes momentos de su vida juntos, siempre volviendo al presente. Un recorrido ágil y no lineal que combina recursos escénicos para transitar la complicidad agónica de una relación que habla de todas las relaciones; un amor que es, que fue, que podría haber sido. La historia que los protagonistas tan verdaderos como ficticios, eligen contarse a sí mismos.`,
@@ -419,7 +419,7 @@ let completedPlays = [
     score: 8,
   },
   {
-    id: 1000000000038,
+    id: "P38",
     name: "Vaciar chat",
     author: "Soledad Lacassy / Julieta Lucena",
     plot: `Una generación atravesada por la virtualidad, la comunicación fácil e inmediata y la hiperconectividad. Pero a su vez una generación que decide dejar de sostener, testificar e ignorar la violencia, el abuso, el machismo y la opresión.
@@ -431,7 +431,7 @@ let completedPlays = [
     score: 8,
   },
   {
-    id: 1000000000039,
+    id: "P39",
     name: "El prisionero de la Segunda Avenida",
     author: "Neil Simon / Jorge Denevi",
     plot: `¿Por qué una comedia escrita y estrenada en Broadway en el año 1971 se ha convertido en su obra más vigente, que más risas obtiene y también, con el tiempo, la que más entradas ha vendido en todo el mundo? La respuesta podría estar en que reflexiona, entre risas, sobre la sociedad de consumo, la imperiosa necesidad del éxito económico como logro personal y el miedo a perderlo. ¿Se puede hacer una gran comedia sobre temas tan serios, a veces tan dramáticos? Neil Simon lo demuestra. Tal vez porque esos temas se han convertido en más y más preocupantes para el hombre moderno, y aquí el autor se ha convertido sin proponérselo en una especie de profeta moderno.`,
@@ -441,7 +441,7 @@ let completedPlays = [
     score: 8,
   },
   {
-    id: 1000000000040,
+    id: "P40",
     name: "La forma de las cosas",
     author: "Neil Labute / Fabio Zidan y Gustavo Bianchi",
     plot: `“La forma de las cosas” nos plantea una historia de amor, donde la entrega genuina, pero también la estrategia extrema de manipulación nos abre un interrogante de  qué cosa es cierta, y cual otra no lo es,  ¿Dónde está la verdad?  ¿Cuáles son los límites y las fronteras, tanto en el arte como en la vida?
@@ -452,7 +452,7 @@ let completedPlays = [
     score: 8,
   },
   {
-    id: 1000000000041,
+    id: "P41",
     name: "Los días de la fragilidad",
     author: "",
     plot: `Los días de la fragilidad es un poema dramático que entrama dos amores, el de la pasión futbolera, y el amor entre la goleadora del Club Atlético Palermo de Rocha con un barrabrava de su hinchada conocido cómo el Mudo. Una historia que parece tener la simplicidad de lo cotidiano pero que construye un relato íntimo en un espacio utópico donde los cuerpos se transfiguran para dar inicio al juego de las pasiones. Ella dentro, él afuera, se miden entre miradas y palabras no dichas.
@@ -463,7 +463,7 @@ let completedPlays = [
     score: 4,
   },
   {
-    id: 1000000000042,
+    id: "P42",
     name: "Una noche en el tablado",
     author: "Varios",
     plot: `“Una noche de tablado” es un espectáculo musical, de humor absurdo, que tiene ante todo un carácter sumamente festivo.
@@ -474,6 +474,42 @@ let completedPlays = [
     genres: ["Teatro el Galpón", "2023"],
     favourite: false,
     score: 5,
+  },
+  {
+    id: "P43",
+    name: "La historia es una historia y el hombre es el único animal que ríe",
+    author: "Millor Fernandes / José María Novo",
+    plot: `Usando el humor, “La historia es una historia”, de Millôr Fernandes aborda la evolución del hombre de manera divertida, crítica y reflexiva, cuestionando y reviviendo la historia desde diferentes perspectivas.
+          Esta comedia “histórico-histérica” trae a escena, de forma relajada e irónica, una línea temporal que comienza en la prehistoria y continúa hasta nuestros días, abordando la evolución del ser humano de manera crítica y reflexiva, cuestionando a los ídolos y a los “grandes hechos” de la humanidad.
+          Estrenada en 1976, la obra encuentra su mayor fuerza en la relación entre espectador y actores y en el sarcasmo característico de los textos de Millôr Fernandes.
+          Es un espectáculo actual y atemporal. En el escenario mostramos hechos históricos que ya sucedieron y que no cambiarán. Sin embargo, parece que el texto fue escrito hoy. Nos hace reflexionar sobre las decisiones que hemos tomado a lo largo de la historia y como decía Santayana: “Aquellos que no pueden recordar el pasado están condenados a repetirlo”.`,
+    review: `Una muy divertida forma de reflexionar sobre la historia de la humanidad.`,
+    genres: ["Teatro el Galpón", "2024"],
+    favourite: true,
+    score: 8,
+  },
+  {
+    id: "P44",
+    name: "Opera Idiota",
+    author: "Analía Torres / Moré",
+    plot: `Enero, el calor arrecia Montevideo, la delincuencia también. Una comisaría perdida en la periferia de la ciudad tiene sus propias batallas internas que resolver antes de hacer prevalecer la ley. Nada es lo que dice ser y solo un loco podrá luchar contra los molinos de viento.
+    Un comienzo de año como cualquier otro.`,
+    review: ``,
+    genres: ["Teatro Circular", "2024"],
+    favourite: false,
+    score: 7,
+  },
+  {
+    id: "P45",
+    name: "Si no te hubiese conocido",
+    author: "Sergi Belbel / Alfredo Goldsdtein",
+    plot: `Una obra llena de misterios sobre las decisiones que nos cambian la vida.
+    El catalán Sergi Belbl vuelve a la cartelera local de la mano del elenco de Teatro Circular para preguntarnos sobre los universos paralelos, sobre lo que somos o pudimos haber sido, sobre los amores reales o posibles, sobre esos besos que se convierten en momentos únicos e imposibles de olvidar.
+    En un eterno balance entre lo conflictivo y lo humorístico, entre la realidad y la imaginación.`,
+    review: `Es muy interesante ver como pequeñas decisiones cambian totalmente el curso de la historia y nos hace reflexionar como también sucede lo mismo en nuestras vidas. Una de las mejores obras que vi en esta primera mitad del 2024.`,
+    genres: ["Teatro Circular", "2024"],
+    favourite: true,
+    score: 9,
   },
 ];
 

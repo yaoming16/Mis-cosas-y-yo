@@ -4,6 +4,8 @@ import GenresMangas from "../Lists/Mangas/GenresMangas";
 import GenreAnimes from "../Lists/Animes/GenresAnime";
 import CategoriesTheater from "../Lists/Theater/CategoriesTheater";
 import categoriesMusic from "../Lists/Music/CategoriesMusic";
+import GenresMovies from "../Lists/Movies/GenresMovies";
+import genresSeries from "../Lists/Series/GenresSeries";
 import AllLists from "../Lists/AllLists";
 import SearchBar from "./SearchBar";
 import Select from "./Select";
@@ -39,6 +41,10 @@ export default function FormSection({
     optionsToAdd = CategoriesTheater;
   } else if (typeOfListToDisplay === "Music") {
     optionsToAdd = categoriesMusic;
+  } else if (typeOfListToDisplay === "Movies") {
+    optionsToAdd = GenresMovies;
+  } else if (typeOfListToDisplay === "Series") {
+    optionsToAdd = genresSeries;
   }
 
   // This is to sort the genders alphabetically
@@ -83,7 +89,7 @@ export default function FormSection({
         ></SearchBar>
       </div>
       <div className="mt-5  m-auto flex flex-col justify-around md:mt-10 md:flex-row w-full">
-        <div className="flex flex-col justify-around">
+        <div className="flex flex-col m-auto">
           <Switch
             SetFunction={SetDisplayRandomRecommendation}
             currentValue={displayRandomRecommendation}
@@ -101,6 +107,7 @@ export default function FormSection({
           </div>
         </div>
         <Switch
+          className="m-auto md:mt-0"
           SetFunction={SetDisplayFavourite}
           currentValue={displayFavourite}
           // We pass this conditions to disable the switch when any of the other switchs is selected
@@ -111,6 +118,7 @@ export default function FormSection({
         ></Switch>
 
         <Switch
+          className="m-auto md:mt-0"
           SetFunction={SetDisplayPending}
           currentValue={displayPending}
           // We pass this conditions to disable the switch when any of the other switchs is selected

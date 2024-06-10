@@ -4,6 +4,7 @@ export default function ActionButton({
   text,
   show = false,
   active = false,
+  loading = false,
 }) {
   return (
     <button

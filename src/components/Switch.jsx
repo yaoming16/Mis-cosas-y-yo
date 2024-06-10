@@ -1,6 +1,12 @@
-export default function Switch({ SetFunction, currentValue, text, disabled }) {
+export default function Switch({
+  SetFunction,
+  currentValue,
+  text,
+  disabled,
+  className,
+}) {
   return (
-    <div>
+    <div className={className}>
       <label
         className="text-nowrap inline-flex items-center cursor-pointer m-1 m"
         htmlFor={text}

@@ -1,10 +1,10 @@
-// start id with 100000000000001
+// start id with MP1
 // In the author section i am gonna to put the names of the director of the orquestra and soloist of the concerto
 // I don't want to change how i filter the list so I need the key of author in my objects.
 // Same goes for genres
 let completedMusic = [
   {
-    id: 100000000000001,
+    id: "MP1",
     name: "Festival Pianissimo",
     author: "Andrea Lucchesini / Ligia Amadio",
     program: [
@@ -23,7 +23,7 @@ let completedMusic = [
     score: 7,
   },
   {
-    id: 100000000000002,
+    id: "MP2",
     name: "Jóvenes Talentos",
     author:
       "Bruno Genta / Azusa Saito / Lincoln Sena / Ervino Rieger / Martín Sosa",
@@ -47,7 +47,7 @@ let completedMusic = [
     score: 8,
   },
   {
-    id: 100000000000003,
+    id: "MP3",
     name: "Brahms",
     author: "Soyoung Yoon / Martín Garcia",
     program: [
@@ -70,7 +70,7 @@ let completedMusic = [
     score: 10,
   },
   {
-    id: 100000000000004,
+    id: "MP4",
     name: "La filarmónica Y Cuatro Pesos de Propina",
     author: "Cuatro Pesos / Martín Garcia",
     program: [
@@ -85,7 +85,7 @@ let completedMusic = [
     score: 9,
   },
   {
-    id: 100000000000005,
+    id: "MP5",
     name: "Brasil en Concierto",
     author: "Eiko Senda / Élida Gencarelli / Ligia Amadio",
     program: [
@@ -112,7 +112,7 @@ let completedMusic = [
     score: 6,
   },
   {
-    id: 100000000000006,
+    id: "MP6",
     name: "El arte del violín",
     author: "Leticia Moreno / Maestro Martín García",
     program: [
@@ -135,7 +135,7 @@ let completedMusic = [
     score: 9,
   },
   {
-    id: 100000000000007,
+    id: "MP7",
     name: "Batuta",
     author: "Emmanuele Baldini",
     program: [
@@ -154,7 +154,7 @@ let completedMusic = [
     score: 10,
   },
   {
-    id: 100000000000008,
+    id: "MP8",
     name: "El concierto",
     author: "Antonio Formaro / Daniel Hasaj",
     program: [
@@ -177,7 +177,7 @@ let completedMusic = [
     score: 7,
   },
   {
-    id: 100000000000009,
+    id: "MP9",
     name: "Guillermo Tell",
     author:
       "Javier Bezzato / Jorge Camiruaga / María José Aguiar / Pablo Schol / Thomas Herzog",
@@ -205,7 +205,7 @@ let completedMusic = [
     score: 9,
   },
   {
-    id: 100000000000010,
+    id: "MP10",
     name: "Grandes Románticos",
     author: "Azusa Saito / Micah McLaurin / Martín García",
     program: [
@@ -228,7 +228,7 @@ let completedMusic = [
     score: 9,
   },
   {
-    id: 100000000000011,
+    id: "MP11",
     name: "Rapsodia",
     author: "Luis Pérez Aquino / Martín García",
     program: [
@@ -255,7 +255,7 @@ let completedMusic = [
     score: 8,
   },
   {
-    id: 100000000000012,
+    id: "MP12",
     name: "Salsipuedes",
     author:
       "Federico Nathan Project / Freddy Vilches Latin Band / Martín García",
@@ -275,7 +275,7 @@ let completedMusic = [
     score: 10,
   },
   {
-    id: 100000000000013,
+    id: "MP13",
     name: "Grandes músicos Uruguayos",
     author: "Enrique Graf / Ligia Amadio",
     program: [
@@ -294,7 +294,7 @@ let completedMusic = [
     score: 8,
   },
   {
-    id: 100000000000014,
+    id: "MP14",
     name: "El emperador",
     author: "Gloria Campaner / Daniel Hasaj",
     program: [
@@ -317,7 +317,7 @@ let completedMusic = [
     score: 10,
   },
   {
-    id: 100000000000015,
+    id: "MP15",
     name: "Matías Ferreyra / Rodolfo Saglimbeni",
     author: "",
     program: [
@@ -340,7 +340,7 @@ let completedMusic = [
     score: 7,
   },
   {
-    id: 100000000000016,
+    id: "MP16",
     name: "Virtuoso",
     author: "Francesco D'Orazio / Martín García",
     program: [
@@ -359,7 +359,7 @@ let completedMusic = [
     score: 6,
   },
   {
-    id: 100000000000017,
+    id: "MP17",
     name: "Adagio a Zitarrosa",
     author: "Alfredo Zitarrosa / Martín García / Julio Cobelli y otros",
     program: [
@@ -374,7 +374,7 @@ let completedMusic = [
     score: 9,
   },
   {
-    id: 100000000000018,
+    id: "MP18",
     name: "Gala Inaugural",
     author: "Markus Groh / Martín García",
     program: [
@@ -397,7 +397,7 @@ let completedMusic = [
     score: 8,
   },
   {
-    id: 100000000000019,
+    id: "MP19",
     name: "De los Alpes a las Sierras",
     author: "Esteban Urtiaga / Martín García",
     program: [
@@ -420,7 +420,7 @@ let completedMusic = [
     score: 7,
   },
   {
-    id: 100000000000020,
+    id: "MP20",
     name: "Gala 90 aniversario",
     author: "Eiko Senda / Stefano Lano",
     program: [
@@ -443,7 +443,7 @@ let completedMusic = [
     score: 7,
   },
   {
-    id: 100000000000021,
+    id: "MP21",
     name: "Chopin y Tchaikovsky",
     author: "Müza Rubackyté / Esteban Louise",
     program: [
@@ -462,7 +462,7 @@ let completedMusic = [
     score: 8,
   },
   {
-    id: 100000000000022,
+    id: "MP22",
     name: "Beethoven IX",
     author:
       "Sandra Silvera / Evgenia Pirshina / Gerardo Marandino / Federico Sanguinetti /Nicolás Rauss",
@@ -478,7 +478,7 @@ let completedMusic = [
     score: 9,
   },
   {
-    id: 100000000000023,
+    id: "MP23",
     name: "Réquiem de Verdi",
     author:
       "Marly Montoni / Evgenia Pirshina / Santiago Vidal / Hermán Iturralde / Nicolas Rauss",
@@ -494,7 +494,7 @@ let completedMusic = [
     score: 7,
   },
   {
-    id: 100000000000024,
+    id: "MP24",
     name: "Cuadros de una exposición",
     author: "Rachel Barton Pine / Ana María Patiño",
     program: [
@@ -517,7 +517,7 @@ let completedMusic = [
     score: 8,
   },
   {
-    id: 100000000000025,
+    id: "MP25",
     name: "La patética",
     author: "Armands Abols / Nicolas Rauss",
     program: [
@@ -540,7 +540,7 @@ let completedMusic = [
     score: 9,
   },
   {
-    id: 100000000000026,
+    id: "MP26",
     name: "Pasión Eslava",
     author: "Cristian Budu / Mika Eichenholz",
     program: [
@@ -559,7 +559,7 @@ let completedMusic = [
     score: 7,
   },
   {
-    id: 100000000000027,
+    id: "MP27",
     name: "Carmen Nabucco Aida",
     author: "Nicolas Rauss",
     program: [
@@ -574,7 +574,7 @@ let completedMusic = [
     score: 6,
   },
   {
-    id: 100000000000028,
+    id: "MP28",
     name: "Festival Mozart Villa-Lobos",
     author:
       "Natalia Vega / Abigail González / Andrés Barbery / Nicolás Zecchi / Esteban Louise",
@@ -594,7 +594,7 @@ let completedMusic = [
     score: 5,
   },
   {
-    id: 100000000000029,
+    id: "MP29",
     name: "Ludwing Van...",
     author: "Priscila Rato / Nicolás Pasquet",
     program: [
@@ -613,7 +613,7 @@ let completedMusic = [
     score: 7,
   },
   {
-    id: 100000000000030,
+    id: "MP30",
     name: "Bohemian Rhapsody in Blue",
     author: "Ciro Fodere / Nicolas Rauss",
     program: [
@@ -636,7 +636,7 @@ let completedMusic = [
     score: 8,
   },
   {
-    id: 100000000000031,
+    id: "MP31",
     name: "Ciclo internacional de piano de Montevideo",
     author: "Varios",
     program: [
@@ -651,7 +651,7 @@ let completedMusic = [
     score: 7,
   },
   {
-    id: 100000000000032,
+    id: "MP32",
     name: "Gala de música popular uruguaya",
     author: "Varios / Esteban Louise",
     program: [
@@ -666,7 +666,7 @@ let completedMusic = [
     score: 6,
   },
   {
-    id: 100000000000033,
+    id: "MP33",
     name: "Coro de la Nostalgia",
     author: "Esteban Louise",
     program: [
@@ -681,7 +681,7 @@ let completedMusic = [
     score: 8,
   },
   {
-    id: 100000000000034,
+    id: "MP34",
     name: "Ciclo de piano Nibya Mariño",
     author: "Éida Gencarelli - Raquel Boldorini",
     program: [
@@ -700,7 +700,7 @@ let completedMusic = [
     score: 7,
   },
   {
-    id: 100000000000035,
+    id: "MP35",
     name: "La Catalina Sinfónico",
     author: "Agarrate Catalina / Martín Jorge",
     program: [
@@ -715,7 +715,7 @@ let completedMusic = [
     score: 10,
   },
   {
-    id: 100000000000036,
+    id: "MP36",
     name: "Leitmotiv",
     author: "Ismael Dilon / Ariel Britos",
     program: [
@@ -734,7 +734,7 @@ let completedMusic = [
     score: 6,
   },
   {
-    id: 100000000000037,
+    id: "MP37",
     name: "Mikrokosmos",
     author:
       "Nahuel Cigaran /Magaly Correa / Selene Gutiérrez /Rocío Britos /Ariel Britos",
@@ -759,7 +759,7 @@ let completedMusic = [
   },
 
   {
-    id: 100000000000038,
+    id: "MP38",
     name: "Tango Coral",
     author: "Varios / Esteban Louise",
     program: [
@@ -772,6 +772,25 @@ let completedMusic = [
     genres: ["Coro Nacional", "2022"],
     favourite: false,
     score: 7,
+  },
+  {
+    id: "MP39",
+    name: "Desde Rusia con Sheherazade y acordeón",
+    author: "Iñaki Alberdi / JongWhi Vakh",
+    program: [
+      {
+        name: "Entramado (concierto para acordeón)",
+        composer: "Sofia Gubaidulina",
+      },
+      {
+        name: "Sheherazade, suite sinfónica, Op.35",
+        composer: "Nikolai Rimsky-Korsakov",
+      },
+    ],
+    review: `Simplemente con encontré el programa lo suficientemente interesante. La primera pieza tiene una falta de melodía que a mi simplemente me desconcierta y no me gusta, claramente no es tipo de música que me gusta. `,
+    genres: ["Orquesta Sinfónica Nacional", "2024"],
+    favourite: false,
+    score: 6,
   },
 ];
 

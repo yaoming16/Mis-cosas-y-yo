@@ -2,12 +2,13 @@ import Navbar from "./NavBar";
 import TopTracksCard from "./TopTracksCard";
 import ActionButton from "./ActionButton";
 import TopArtistsCard from "./TopArtistsCard";
-import { useState, useEffect } from "react";
+import ScrollTopButton from "./ScrollTopButton";
+import { useState, useEffect, useRef } from "react";
 
 /* Before upload i will need to limit the resets so the user only gets anew token if
  there is none stored or is about to expire. Let's do it!! */
 
-let dev = false;
+let dev = true;
 const fetchTokenURL = dev
   ? "http://localhost:3000/refresh_token"
   : "https://book-list-server.vercel.app/refresh_token";
@@ -28,9 +29,7 @@ async function chechForExistingToken() {
   let nowDate = new Date();
   /* First we want to check if a token is stored in local storage, if there isn't we wil get one */
   if (localStorage.getItem("token") === null) {
-    console.log("null token", Date.now);
     await getToken();
-    console.log(JSON.parse(localStorage.getItem("token")));
   } else if (
     /* If there is a token stored we need to check if an hour has passe since it was requested to know if we can still use it */
     (nowDate.getTime() - JSON.parse(localStorage.getItem("token")).date) /
@@ -39,7 +38,6 @@ async function chechForExistingToken() {
   ) {
     await getToken();
   } else {
-    console.log("we already had a valid token");
   }
 }
 
@@ -72,6 +70,9 @@ async function getTopItem(timeRange, type) {
 }
 
 export default function MusicPage() {
+  // This is to save the previous list type that the user displayed
+  const previousListType = useRef("tracks");
+
   // we need this state to know time range to use
   const [timeRange, SetTimeRange] = useState("long_term");
   // This state is to store the data
@@ -79,7 +80,7 @@ export default function MusicPage() {
   // This state is to know when the page is loading (waiting for the request answear)
   const [loading, setLoading] = useState(true);
   // This state is to know if the user wants to show top artists or top tracks
-  const [listType, setListType] = useState("artists");
+  const [listType, setListType] = useState("tracks");
 
   // Fetch the data and saves it in data state. This is called when the page is first rendered and on timeRange, listType updates.
   const handleFetch = () => {
@@ -92,45 +93,58 @@ export default function MusicPage() {
   /* On first load and when the time range changes, we set loading to true and start fetching the data.
   handleFetch sets loading to false when it finishes */
   useEffect(() => {
-    console.log("useEffect");
     setLoading(true);
+    console.log("Effect");
+    previousListType.current = listType;
     /* We will check if a valid token is saved when we first load the page and on every update. This is to prevent the case that the user left open
     the page for x time and, if the token expired, when a new request for data is made we won't have a valid token. */
     chechForExistingToken().then((response) => {
       handleFetch();
     });
-  }, [timeRange, listType]);
+  }, [listType, timeRange]);
+
+  //Function to check if we just changed a state
+  function checkPrevState(state, setState) {
+    set;
+  }
 
   // This function is to get the info we want to display in the desired format
   function toRender() {
-    switch (listType) {
-      case "tracks":
-        return data.map((item, index) => (
-          <TopTracksCard
-            key={index}
-            data={item}
-            number={index + 1}
-          ></TopTracksCard>
-        ));
-      case "artists":
-        return (
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 sm:gap-2 md:gap-3 lg:gap-6 xl:gap-10">
-            {data.map((item, index) => (
-              <TopArtistsCard
-                key={index}
-                data={item}
-                number={index + 1}
-              ></TopArtistsCard>
-            ))}
-          </div>
-        );
+    console.log("render");
+    // If we just changed list type we want to set the page to loading screen
+    if (previousListType.current != listType) {
+      setLoading(true);
+    } else {
+      switch (listType) {
+        case "tracks":
+          return data.map((item, index) => (
+            <TopTracksCard
+              key={index}
+              data={item}
+              number={index + 1}
+            ></TopTracksCard>
+          ));
+        case "artists":
+          return (
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 sm:gap-2 md:gap-3 lg:gap-6 xl:gap-10">
+              {data.map((item, index) => (
+                <TopArtistsCard
+                  key={index}
+                  data={item}
+                  number={index + 1}
+                ></TopArtistsCard>
+              ))}
+            </div>
+          );
+      }
     }
   }
 
   return (
     <div>
       <Navbar></Navbar>
-      <div className="p-3 md:p-5 lg:p-7 xl:p-10">
+      <ScrollTopButton></ScrollTopButton>
+      <div className="p-3 md:p-5 lg:p-7 xl:p-10 sm:w-3/4 sm:m-auto">
         <div className="grid grid-cols-3 gap-1 mb-5">
           <ActionButton
             text="Último mes"
