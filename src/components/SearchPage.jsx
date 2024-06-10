@@ -12,6 +12,7 @@ import completedSeries from "../Lists/Series/CompletedSeries";
 import pendingGames from "../Lists/Games/PendingGames";
 import pendingBooks from "../Lists/Books/PendingBooks";
 import pendingMangas from "../Lists/Mangas/PendingMangas";
+import Footer from "./Footer";
 import Accordion from "./Accordion";
 import ScrollTopButton from "./ScrollTopButton";
 
@@ -211,6 +212,7 @@ export default function SearchPage() {
           <div></div>
         )
       }
+      <Footer></Footer>
     </div>
   );
 }

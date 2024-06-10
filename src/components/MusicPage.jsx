@@ -3,6 +3,7 @@ import TopTracksCard from "./TopTracksCard";
 import ActionButton from "./ActionButton";
 import TopArtistsCard from "./TopArtistsCard";
 import ScrollTopButton from "./ScrollTopButton";
+import Footer from "./Footer";
 import { useState, useEffect, useRef } from "react";
 
 /* Before upload i will need to limit the resets so the user only gets anew token if
@@ -200,6 +201,7 @@ export default function MusicPage() {
           )}
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

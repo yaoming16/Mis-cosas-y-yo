@@ -449,16 +449,6 @@ let completedBooks = [
     favourite: true,
     score: 7,
   },
-  {
-    id: 10000000078,
-    name: "",
-    author: "",
-    plot: ``,
-    review: ``,
-    genres: ["Fantasía"],
-    favourite: false,
-    score: 5,
-  },
 ];
 
 export default completedBooks;
