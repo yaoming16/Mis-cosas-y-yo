@@ -95,7 +95,7 @@ export default function MusicPage() {
   handleFetch sets loading to false when it finishes */
   useEffect(() => {
     setLoading(true);
-    console.log("Effect");
+    //console.log("Effect");
     previousListType.current = listType;
     /* We will check if a valid token is saved when we first load the page and on every update. This is to prevent the case that the user left open
     the page for x time and, if the token expired, when a new request for data is made we won't have a valid token. */
@@ -111,7 +111,7 @@ export default function MusicPage() {
 
   // This function is to get the info we want to display in the desired format
   function toRender() {
-    console.log("render");
+    //console.log("render");
     // If we just changed list type we want to set the page to loading screen
     if (previousListType.current != listType) {
       setLoading(true);
