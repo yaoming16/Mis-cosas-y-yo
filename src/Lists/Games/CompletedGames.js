@@ -287,7 +287,7 @@ let completedGames = [
     name: "Slay the Spire",
     author: "Mega Crit",
     plot: "Fusionamos juegos de cartas y roguelikes para crear el mejor creador de mazos para un jugador que pudimos. ¡Crea una baraja única, encuentra criaturas extrañas, descubre reliquias de inmenso poder y mata a Spire!",
-    review: `Un buen juego peor no es mi estilo. Fué entretenido jugarlo pero luego de un rato se me hizo aburrido y repetitivo`,
+    review: `Un buen juego pero no es mi estilo. Fué entretenido jugarlo pero luego de un rato se me hizo aburrido y repetitivo`,
     genres: ["Roguelike", "Estrategia", "Indie"],
     favourite: false,
     score: 6,

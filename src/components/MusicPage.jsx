@@ -162,7 +162,7 @@ export default function MusicPage() {
             active={timeRange === "medium_term"}
           ></ActionButton>
           <ActionButton
-            text="últimos 12 semanas"
+            text="últimos 12 meses"
             SetFuction={SetTimeRange}
             onClickValue={"long_term"}
             show={true}
